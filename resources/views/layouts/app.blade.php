@@ -320,6 +320,8 @@
     <script src="assets/js/vendor/jquery.style.swicher.js"></script>
     <script src="assets/js/vendor/js.cookie.js"></script>
     <script src="assets/js/vendor/jquery-one-page-nav.js"></script>
+    <!--  Script Tambahan Deteksi Timezone -->
+    <script src="assets/js/vendor/detect-timezone.js"></script>
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
 </body>

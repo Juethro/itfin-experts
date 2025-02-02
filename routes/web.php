@@ -1,8 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\LanguageController;
 
-// Global Route
+// Global Route (English)
 Route::get('/', function () {
     return view('global.index');
 });
@@ -20,14 +21,24 @@ Route::get('/portfolio', function () {
 });
 
 // Indonesia Route
-Route::get('/tentang', function () {
-    return view('indonesia.tentang');
+Route::prefix('id')->group(function () {
+    Route::get('/', function () {
+        return view('indonesia.index');
+    });
+    
+    Route::get('/tentang', function () {
+        return view('indonesia.tentang');
+    });
+    
+    Route::get('/kontak', function () {
+        return view('indonesia.kontak');
+    });
+    
+    Route::get('/portfolio', function () {
+        return view('indonesia.portfolio');
+    });
 });
 
-Route::get('/kontak', function () {
-    return view('indonesia.kontak');
-});
 
-Route::get('/portfolio', function () {
-    return view('indonesia.portfolio');
-});
+// Rute Untuk Generate user_lang
+Route::get('/detect-language', [LanguageController::class, 'index']);
