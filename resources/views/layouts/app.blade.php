@@ -29,7 +29,7 @@
                     <div class="col-lg-3 col-md-6 col-4">
                         <div class="logo">
                             <a href="/">
-                                <img class="logo-light" src="./assets/images/logo/logo.png" alt="Corporate Logo">
+                                <img class="logo-light" src="{{ asset('assets/images/logo/logo.png') }}" alt="Corporate Logo">
                                 <img class="logo-dark" src="./assets/images/logo/logo-dark.png" alt="Corporate Logo">
                             </a>
                         </div>
@@ -301,29 +301,29 @@
     <!-- End Top To Bottom Area  -->
     <!-- JS
 ============================================ -->
-    <script src="assets/js/vendor/modernizr.min.js"></script>
-    <script src="assets/js/vendor/jquery.min.js"></script>
-    <script src="assets/js/vendor/bootstrap.min.js"></script>
-    <script src="assets/js/vendor/popper.min.js"></script>
-    <script src="assets/js/vendor/waypoint.min.js"></script>
-    <script src="assets/js/vendor/wow.min.js"></script>
-    <script src="assets/js/vendor/counterup.min.js"></script>
-    <script src="assets/js/vendor/feather.min.js"></script>
-    <script src="assets/js/vendor/sal.min.js"></script>
-    <script src="assets/js/vendor/masonry.js"></script>
-    <script src="assets/js/vendor/imageloaded.js"></script>
-    <script src="assets/js/vendor/magnify.min.js"></script>
-    <script src="assets/js/vendor/lightbox.js"></script>
-    <script src="assets/js/vendor/slick.min.js"></script>
-    <script src="assets/js/vendor/easypie.js"></script>
-    <script src="assets/js/vendor/text-type.js"></script>
-    <script src="assets/js/vendor/jquery.style.swicher.js"></script>
-    <script src="assets/js/vendor/js.cookie.js"></script>
-    <script src="assets/js/vendor/jquery-one-page-nav.js"></script>
+    <script src="{{ asset('assets/js/vendor/modernizr.min.js') }}"></script>
+    <script src="{{ asset('assets/js/vendor/jquery.min.js') }}"></script>
+    <script src="{{ asset('assets/js/vendor/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('assets/js/vendor/popper.min.js') }}"></script>
+    <script src="{{ asset('assets/js/vendor/waypoint.min.js') }}"></script>
+    <script src="{{ asset('assets/js/vendor/wow.min.js') }}"></script>
+    <script src="{{ asset('assets/js/vendor/counterup.min.js') }}"></script>
+    <script src="{{ asset('assets/js/vendor/feather.min.js') }}"></script>
+    <script src="{{ asset('assets/js/vendor/sal.min.js') }}"></script>
+    <script src="{{ asset('assets/js/vendor/masonry.js') }}"></script>
+    <script src="{{ asset('assets/js/vendor/imageloaded.js') }}"></script>
+    <script src="{{ asset('assets/js/vendor/magnify.min.js') }}"></script>
+    <script src="{{ asset('assets/js/vendor/lightbox.js') }}"></script>
+    <script src="{{ asset('assets/js/vendor/slick.min.js') }}"></script>
+    <script src="{{ asset('assets/js/vendor/easypie.js') }}"></script>
+    <script src="{{ asset('assets/js/vendor/text-type.js') }}"></script>
+    <script src="{{ asset('assets/js/vendor/jquery.style.swicher.js') }}"></script>
+    <script src="{{ asset('assets/js/vendor/js.cookie.js') }}"></script>
+    <script src="{{ asset('assets/js/vendor/jquery-one-page-nav.js') }}"></script>
     <!--  Script Tambahan Deteksi Timezone -->
-    <script src="assets/js/vendor/detect-timezone.js"></script>
+    <script src="{{ asset('assets/js/vendor/detect-timezone.js') }}"></script>
     <!-- Main JS -->
-    <script src="assets/js/main.js"></script>
+    <script src="{{ asset('assets/js/main.js') }}"></script>
 </body>
 
 </html>

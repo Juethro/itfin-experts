@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layoutsindo.app')
 @section('content')
 
 <!-- Start Slider Area  -->
@@ -108,7 +108,7 @@
                                 <div class="thumbnail">
                                     <figure class="card-image">
                                         <a href="portfolio-details.html">
-                                            <img src="./assets/images/portfolio/portfolio-01.jpg" alt="Portfolio-01">
+                                            <img src="{{ asset('assets/images/portfolio/portfolio-01.jpg') }}" alt="Portfolio-01">
                                         </a>
                                     </figure>
                                     <a class="rainbow-overlay" href="portfolio-details.html"></a>
@@ -131,7 +131,7 @@
                                 <div class="thumbnail">
                                     <figure class="card-image">
                                         <a href="portfolio-details.html">
-                                            <img src="./assets/images/portfolio/portfolio-02.jpg" alt="Portfolio-01">
+                                            <img src="{{ asset('assets/images/portfolio/portfolio-02.jpg') }}" alt="Portfolio-01">
                                         </a>
                                     </figure>
                                     <a class="rainbow-overlay" href="portfolio-details.html"></a>
@@ -154,7 +154,7 @@
                                 <div class="thumbnail">
                                     <figure class="card-image">
                                         <a href="portfolio-details.html">
-                                            <img src="./assets/images/portfolio/portfolio-03.jpg" alt="Portfolio-01">
+                                            <img src="{{ asset('assets/images/portfolio/portfolio-03.jpg') }}" alt="Portfolio-01">
                                         </a>
                                     </figure>
                                     <a class="rainbow-overlay" href="portfolio-details.html"></a>
@@ -177,7 +177,7 @@
                                 <div class="thumbnail">
                                     <figure class="card-image">
                                         <a href="portfolio-details.html">
-                                            <img src="./assets/images/portfolio/portfolio-04.jpg" alt="Portfolio-01">
+                                            <img src="{{ asset('assets/images/portfolio/portfolio-04.jpg') }}" alt="Portfolio-01">
                                         </a>
                                     </figure>
                                     <a class="rainbow-overlay" href="portfolio-details.html"></a>
@@ -200,7 +200,7 @@
                                 <div class="thumbnail">
                                     <figure class="card-image">
                                         <a href="portfolio-details.html">
-                                            <img src="./assets/images/portfolio/portfolio-05.jpg" alt="Portfolio-01">
+                                            <img src="{{ asset('assets/images/portfolio/portfolio-05.jpg') }}" alt="Portfolio-01">
                                         </a>
                                     </figure>
                                     <a class="rainbow-overlay" href="portfolio-details.html"></a>
@@ -223,7 +223,7 @@
                                 <div class="thumbnail">
                                     <figure class="card-image">
                                         <a href="portfolio-details.html">
-                                            <img src="./assets/images/portfolio/portfolio-06.jpg" alt="Portfolio-01">
+                                            <img src="{{ asset('assets/images/portfolio/portfolio-06.jpg') }}" alt="Portfolio-01">
                                         </a>
                                     </figure>
                                     <a class="rainbow-overlay" href="portfolio-details.html"></a>
@@ -324,7 +324,7 @@
                                     </div>
                                     <div class="col-lg-6 order-1 order-lg-2">
                                         <div class="thumbnail">
-                                            <img class="w-100" src="assets/images/timeline/timeline-01.jpg" alt="Corporate Html Template">
+                                            <img class="w-100" src="{{ asset('assets/images/timeline/timeline-01.jpg') }}" alt="Corporate Html Template">
                                         </div>
                                     </div>
                                 </div>
@@ -375,7 +375,7 @@
                                     </div>
                                     <div class="col-lg-6 order-1 order-lg-2">
                                         <div class="thumbnail">
-                                            <img class="w-100" src="assets/images/timeline/timeline-02.jpg" alt="Corporate Html Template">
+                                            <img class="w-100" src="{{ asset('assets/images/timeline/timeline-02.jpg') }}" alt="Corporate Html Template">
                                         </div>
                                     </div>
                                 </div>
@@ -456,7 +456,7 @@
                         </div>
                         <div class="order-1 order-md-2 col-lg-4 col-md-4">
                             <div class="thumbnail">
-                                <img class="w-100" src="assets/images/testimonial/testimonial-dark-01.jpg" alt="Corporate Template">
+                                <img class="w-100" src="{{ asset('assets/images/testimonial/testimonial-dark-01.jpg') }}" alt="Corporate Template">
                             </div>
                         </div>
                     </div>
@@ -483,7 +483,7 @@
                         </div>
                         <div class="order-1 order-md-2 col-lg-4 col-md-4">
                             <div class="thumbnail">
-                                <img class="w-100" src="assets/images/testimonial/testimonial-dark-02.jpg" alt="Corporate Template">
+                                <img class="w-100" src="{{ asset('assets/images/testimonial/testimonial-dark-02.jpg') }}" alt="Corporate Template">
                             </div>
                         </div>
                     </div>
@@ -509,7 +509,7 @@
                         </div>
                         <div class="order-1 order-md-2 col-lg-4 col-md-4">
                             <div class="thumbnail">
-                                <img class="w-100" src="assets/images/testimonial/testimonial-dark-03.jpg" alt="Corporate Template">
+                                <img class="w-100" src="{{ asset('assets/images/testimonial/testimonial-dark-03.jpg') }}" alt="Corporate Template">
                             </div>
                         </div>
                     </div>
@@ -549,7 +549,7 @@
                     <div class="inner">
                         <div class="thumbnail">
                             <a class="image" href="blog-details.html">
-                                <img class="w-100" src="assets/images/blog-grid/blog-01.jpg" alt="Blog Image">
+                                <img class="w-100" src="{{ asset('assets/images/blog-grid/blog-01.jpg') }}" alt="Blog Image">
                             </a>
                         </div>
                         <div class="content">
@@ -571,7 +571,7 @@
                     <div class="inner">
                         <div class="thumbnail">
                             <a class="image" href="blog-details.html">
-                                <img class="w-100" src="assets/images/blog-grid/blog-02.jpg" alt="Blog Image">
+                                <img class="w-100" src="{{ asset('assets/images/blog-grid/blog-02.jpg') }}" alt="Blog Image">
                             </a>
                         </div>
                         <div class="content">
@@ -593,7 +593,7 @@
                     <div class="inner">
                         <div class="thumbnail">
                             <a class="image" href="blog-details.html">
-                                <img class="w-100" src="assets/images/blog-grid/blog-03.jpg" alt="Blog Image">
+                                <img class="w-100" src="{{ asset('assets/images/blog-grid/blog-03.jpg') }}" alt="Blog Image">
                             </a>
                         </div>
                         <div class="content">
