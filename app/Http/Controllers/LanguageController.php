@@ -20,6 +20,10 @@ class LanguageController extends Controller
          $locale = in_array($timezone, $indonesianTimezones) ? 'id' : 'en';
  
          // Simpan preferensi ke cookie selama 30 hari
-         return response()->json(['locale' => $locale])->cookie('user_lang', $locale, 5);        
+         return response()
+            ->json(['locale' => $locale])
+            ->cookie('user_lang', $locale, 60, '/', null, false, true)  // Untuk middleware (server-side)
+            ->cookie('user_lang_js', $locale, 60, '/', null, false, false); // Untuk JavaScript
+                
     }
 }
