@@ -802,7 +802,7 @@
                                         <img class="logo-dark" src="assets/images/logo/logo-dark.png" alt="Corporate Logo">
                                     </a>
                                 </div>
-                                <h3 class="text-big">Create Website By Doob So Quick Download And Make Your Site.</h3>
+                                <h3 class="text-big">Elevate Your Business with ITFIN Expert.</h3>
                             </div>
                         </div>
                         <div class="col-lg-2 col-md-6 col-sm-6 col-12">
@@ -811,10 +811,8 @@
                                     <h4 class="title">Services</h4>
                                     <div class="inner">
                                         <ul class="footer-link link-hover">
-                                            <li><a href="testimonial.html">Testiminial</a></li>
-                                            <li><a href="index-company.html">Company</a></li>
-                                            <li><a href="index-marketing-agency.html">Marketing</a></li>
-                                            <li><a href="index-startup.html">Startup</a></li>
+                                            <li><a href="wa.me/6285704945420">Sales</a></li>
+                                            <li><a href="wa.me/6285704945420">Technical Support</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -822,10 +820,8 @@
                                     <h4 class="title">Products</h4>
                                     <div class="inner">
                                         <ul class="footer-link link-hover">
-                                            <li><a href="about.html">About</a></li>
-                                            <li><a href="portfolio.html">Portfolio</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                            <li><a href="service.html">Service</a></li>
+                                            <li><a href="/portfolio">Portfolio</a></li>
+                                            <li><a href="/contact">Contact Us</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -837,10 +833,8 @@
                                     <h4 class="title">Company</h4>
                                     <div class="inner">
                                         <ul class="footer-link link-hover">
-                                            <li><a href="index-corporate.html">Corporate</a></li>
-                                            <li><a href="portfolio.html">Portfolio</a></li>
-                                            <li><a href="index-seo-agency.html">SEO Agency</a></li>
-                                            <li><a href="index-web-agency.html">Web Agency</a></li>
+                                            <li><a href="/about">About</a></li>
+                                            <li><a href="maps.google">Maps</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -848,10 +842,8 @@
                                     <h4 class="title">Solutions</h4>
                                     <div class="inner">
                                         <ul class="footer-link link-hover">
-                                            <li><a href="gallery.html">Gallery</a></li>
-                                            <li><a href="testimonial.html">Testimonial</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                            <li><a href="service.html">Service</a></li>
+                                            <li><a href="instagram.com/itfin">Gallery</a></li>
+                                            <li><a href="/testimonial">Testimonial</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -861,13 +853,13 @@
                             <div class="rainbow-footer-widget">
                                 <h4 class="title">Newsletter</h4>
                                 <div class="inner">
-                                    <h6 class="subtitle">2000+ Our clients are subscribe Around the World</h6>
+                                    <h6 class="subtitle">Our clients are satisfied with our work</h6>
                                     <form class="newsletter-form" action="#">
                                         <div class="form-group">
                                             <input type="email" placeholder="Enter Your Email Here">
                                         </div>
                                         <div class="form-group">
-                                            <button class="btn-default" type="submit">Submit Now</button>
+                                            <button class="btn-default" type="submit">Reach Us Now</button>
                                         </div>
                                     </form>
                                 </div>
@@ -899,7 +891,7 @@
                     </div>
                     <div class="col-lg-6 col-md-4 col-sm-12 col-12">
                         <div class="copyright-right text-center text-lg-end">
-                            <p class="copyright-text">© Doob 2022</p>
+                            <p class="copyright-text">© ITFIN Expert 2025</p>
                         </div>
                     </div>
                 </div>
