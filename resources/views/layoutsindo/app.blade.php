@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-style-mode" content="1"> <!-- 0 == light, 1 == dark -->
 
-    <title>ITFIN Expert - IT Consultant</title>
+    <title>ITFIN Expert - Konsultan IT</title>
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/favicon.png') }}">
     <!-- CSS ============================================ -->
@@ -39,23 +39,23 @@
 
                             <nav class="mainmenu-nav d-none d-lg-block">
                                 <ul class="mainmenu">
-                                    <li><a href="/">Home</a></li>
+                                    <li><a href="/">Beranda</a></li>
 
-                                    <li><a href="/about">About</a></li>
+                                    <li><a href="/tentang">Tentang</a></li>
 
-                                    <li class="has-droupdown has-menu-child-item"><a href="#">Service</a>
+                                    <li class="has-droupdown has-menu-child-item"><a href="#">Layanan</a>
                                         <ul class="submenu">
-                                            <li><a href="#">Service 1</a></li>
-                                            <li><a href="#">Service 2</a></li>
-                                            <li><a href="#">Service 3</a></li>
-                                            <li><a href="#">Service 4</a></li>
-                                            <li><a href="#">Service 5</a></li>
+                                            <li><a href="#">Layanan 1</a></li>
+                                            <li><a href="#">Layanan 2</a></li>
+                                            <li><a href="#">Layanan 3</a></li>
+                                            <li><a href="#">Layanan 4</a></li>
+                                            <li><a href="#">Layanan 5</a></li>
                                         </ul>
                                     </li>
 
                                     <li><a href="/portfolio">Portfolio</a></li>
 
-                                    <li><a href="/contact">Contact Us</a></li>
+                                    <li><a href="/kontak">Hubungi</a></li>
                                 </ul>
                             </nav>
 
@@ -106,22 +106,22 @@
                     </div>
                 </div>
                 <ul class="mainmenu">
-                    <li><a href="/">Home</a></li>
+                    <li><a href="/">Beranda</a></li>
 
-                    <li><a href="/about">About</a></li>
+                    <li><a href="/tentang">Tentang</a></li>
 
-                    <li class="with-megamenu has-menu-child-item"><a href="#">Service</a>
+                    <li class="with-megamenu has-menu-child-item"><a href="#">Layanan</a>
                         <div class="rainbow-megamenu">
                             <div class="wrapper">
                                 <div class="row row--0">
                                     <div class="col-lg-3 single-mega-item">
                                         <ul class="mega-menu-item">
                                             <ul class="submenu">
-                                                <li><a href="#">Service 1</a></li>
-                                                <li><a href="#">Service 2</a></li>
-                                                <li><a href="#">Service 3</a></li>
-                                                <li><a href="#">Service 4</a></li>
-                                                <li><a href="#">Service 5</a></li>
+                                                <li><a href="#">Layanan 1</a></li>
+                                                <li><a href="#">Layanan 2</a></li>
+                                                <li><a href="#">Layanan 3</a></li>
+                                                <li><a href="#">Layanan 4</a></li>
+                                                <li><a href="#">Layanan 5</a></li>
                                             </ul>
                                         </ul>
                                     </div>
@@ -132,7 +132,7 @@
 
                     <li><a href="/portfolio">Portfolio</a></li>
 
-                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/kontak">Hubungi</a></li>
                 </ul>
             </div>
         </div>
@@ -277,7 +277,7 @@
                                     <a href="#">Terms And Condition</a>
                                 </li>
                                 <li>
-                                    <a href="/contact">Contact Us</a>
+                                    <a href="/kontak">Hubungi</a>
                                 </li>
                             </ul>
                         </div>
