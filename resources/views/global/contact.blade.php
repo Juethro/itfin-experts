@@ -2,14 +2,13 @@
 @section('content')
 <!-- Start Contact Area  -->
 <div class="main-content">
-
     <div class="rainbow-contact-area rainbow-section-gap">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 mb--40">
                     <div class="section-title text-center" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
                         <h4 class="subtitle "><span class="theme-gradient">Contact Form</span></h4>
-                        <h2 class="title w-600 mb--20">Our Contact Address Here.</h2>
+                        <h2 class="title w-600 mb--20">Get In Touch With Us</h2>
                     </div>
                 </div>
             </div>

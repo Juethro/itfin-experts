@@ -30,7 +30,7 @@
                         <div class="logo">
                             <a href="/">
                                 <img class="logo-light" src="{{ asset('assets/images/logo/logo.png') }}" alt="Corporate Logo">
-                                <img class="logo-dark" src="./assets/images/logo/logo-dark.png" alt="Corporate Logo">
+                                <img class="logo-dark" src="{{ asset('assets/images/logo/logo-dark.png') }}" alt="Corporate Logo">
                             </a>
                         </div>
                     </div>
@@ -41,7 +41,7 @@
                                 <ul class="mainmenu">
                                     <li><a href="/">Home</a></li>
 
-                                    <li><a href="/about">About</a></li>
+                                    <li><a href="/en/about">About</a></li>
 
                                     <li class="has-droupdown has-menu-child-item"><a href="#">Service</a>
                                         <ul class="submenu">
@@ -53,9 +53,9 @@
                                         </ul>
                                     </li>
 
-                                    <li><a href="/portfolio">Portfolio</a></li>
+                                    <li><a href="/en/portfolio">Portfolio</a></li>
 
-                                    <li><a href="/contact">Contact Us</a></li>
+                                    <li><a href="/en/contact">Contact Us</a></li>
                                 </ul>
                             </nav>
 
@@ -73,12 +73,12 @@
                                 <ul>
                                     <li>
                                         <a href="javascript: void(0);" data-theme="light" class="setColor light">
-                                            <img class="sun-image" src="./assets/images/icons/sun-01.svg" alt="Sun images">
+                                            <img class="sun-image" src="{{ asset('assets/images/icons/sun-01.svg') }}" alt="Sun images">
                                         </a>
                                     </li>
                                     <li>
                                         <a href="javascript: void(0);" data-theme="dark" class="setColor dark">
-                                            <img class="Victor Image" src="./assets/images/icons/vector.svg" alt="Vector Images">
+                                            <img class="Victor Image" src="{{ asset('assets/images/icons/vector.svg') }}" alt="Vector Images">
                                         </a>
                                     </li>
                                 </ul>
@@ -95,8 +95,8 @@
                 <div class="header-top">
                     <div class="logo">
                         <a href="index.html">
-                            <img class="logo-light" src="./assets/images/logo/logo.png" alt="Corporate Logo">
-                            <img class="logo-dark" src="./assets/images/logo/logo-dark.png" alt="Corporate Logo">
+                            <img class="logo-light" src="{{ asset('assets/images/logo/logo.png') }}" alt="Corporate Logo">
+                            <img class="logo-dark" src="{{ asset('assets/images/logo/logo-dark.png') }}" alt="Corporate Logo">
                         </a>
                     </div>
                     <div class="close-menu">
@@ -108,7 +108,7 @@
                 <ul class="mainmenu">
                     <li><a href="/">Home</a></li>
 
-                    <li><a href="/about">About</a></li>
+                    <li><a href="/en/about">About</a></li>
 
                     <li class="with-megamenu has-menu-child-item"><a href="#">Service</a>
                         <div class="rainbow-megamenu">
@@ -130,9 +130,9 @@
                         </div>
                     </li>
 
-                    <li><a href="/portfolio">Portfolio</a></li>
+                    <li><a href="/en/portfolio">Portfolio</a></li>
 
-                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/en/contact">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -147,34 +147,6 @@
 
         <!-- Start Footer Area  -->
         <footer class="rainbow-footer footer-style-default variation-two">
-            <div class="rainbow-callto-action clltoaction-style-default style-7">
-                <div class="container">
-                    <div class="row row--0 align-items-center content-wrapper">
-                        <div class="col-lg-8 col-md-8">
-                            <div class="inner">
-                                <div class="content text-left">
-                                    <div class="logo">
-                                        <a href="index.html">
-                                            <img class="logo-light" src="assets/images/logo/logo.png" alt="Corporate Logo">
-                                            <img class="logo-dark" src="assets/images/logo/logo-dark.png" alt="Corporate Logo">
-                                        </a>
-                                    </div>
-                                    <p class="subtitle" data-sal="slide-up" data-sal-duration="400" data-sal-delay="150">If you want to create a corporate template you can purshace now
-                                        our doob
-                                        template.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4" data-sal="slide-up" data-sal-duration="400" data-sal-delay="150">
-                            <div class="call-to-btn text-left mt_sm--20 text-lg-right">
-                                <a class="btn-default" href="https://themeforest.net/checkout/from_item/34133466?license=regular">Purchase Doob
-                                    <i class="feather-arrow-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="footer-top">
                 <div class="container">
                     <div class="row">
@@ -183,10 +155,10 @@
                                 <h4 class="title">Services</h4>
                                 <div class="inner">
                                     <ul class="footer-link link-hover">
-                                        <li><a href="about.html">About</a></li>
-                                        <li><a href="portfolio.html">Portfolio</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                        <li><a href="service.html">Service</a></li>
+                                        <li><a href="/en/about">About</a></li>
+                                        <li><a href="/en/portfolio">Portfolio</a></li>
+                                        <li><a href="/en/contact">Contact</a></li>
+                                        <li><a href="/en/service">Service</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -197,10 +169,10 @@
                                     <h4 class="title">Solutions</h4>
                                     <div class="inner">
                                         <ul class="footer-link link-hover">
-                                            <li><a href="brand.html">Brand</a></li>
-                                            <li><a href="call-to-action.html">call To Action</a></li>
-                                            <li><a href="counter.html">Counter</a></li>
-                                            <li><a href="service.html">Service</a></li>
+                                            <li><a href="#">Brand</a></li>
+                                            <li><a href="#">call To Action</a></li>
+                                            <li><a href="#">Counter</a></li>
+                                            <li><a href="#">Service</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -211,10 +183,10 @@
                                 <h4 class="title">Company</h4>
                                 <div class="inner">
                                     <ul class="footer-link link-hover">
-                                        <li><a href="pricing.html">Pricing</a></li>
-                                        <li><a href="tab.html">Tab Styles</a></li>
-                                        <li><a href="service.html">Service</a></li>
-                                        <li><a href="social-share.html">Social</a></li>
+                                        <li><a href="#">Pricing</a></li>
+                                        <li><a href="#">Tab Styles</a></li>
+                                        <li><a href="#">Service</a></li>
+                                        <li><a href="#">Social</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -224,10 +196,10 @@
                                 <h4 class="title">Resources</h4>
                                 <div class="inner">
                                     <ul class="footer-link link-hover">
-                                        <li><a href="team.html">Team</a></li>
-                                        <li><a href="testimonial.html">Testimonial</a></li>
-                                        <li><a href="service.html">Service</a></li>
-                                        <li><a href="timeline.html">Timeline</a></li>
+                                        <li><a href="#">Team</a></li>
+                                        <li><a href="#">Testimonial</a></li>
+                                        <li><a href="#">Service</a></li>
+                                        <li><a href="#">Timeline</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -271,13 +243,13 @@
                         <div class="copyright-left">
                             <ul class="ft-menu link-hover">
                                 <li>
-                                    <a href="privacy-policy.html">Privacy Policy</a>
+                                    <a href="#">Privacy Policy</a>
                                 </li>
                                 <li>
                                     <a href="#">Terms And Condition</a>
                                 </li>
                                 <li>
-                                    <a href="/contact">Contact Us</a>
+                                    <a href="/en/contact">Contact Us</a>
                                 </li>
                             </ul>
                         </div>

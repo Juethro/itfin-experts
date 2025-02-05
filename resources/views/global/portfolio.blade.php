@@ -34,7 +34,7 @@
                                 <div class="thumbnail">
                                     <figure class="card-image">
                                         <a href="portfolio-details.html">
-                                            <img src="assets/images/portfolio/portfolio-01.jpg" alt="Portfolio-01">
+                                            <img src="{{ asset('assets/portfolio/portfolio-01.jpg') }}" alt="Portfolio-01">
                                         </a>
                                     </figure>
                                     <a class="rainbow-overlay" href="portfolio-details.html"></a>
@@ -57,7 +57,7 @@
                                 <div class="thumbnail">
                                     <figure class="card-image">
                                         <a href="portfolio-details.html">
-                                            <img src="assets/images/portfolio/portfolio-02.jpg" alt="Portfolio-01">
+                                            <img src="{{ asset('assets/portfolio/portfolio-01.jpg') }}" alt="Portfolio-01">
                                         </a>
                                     </figure>
                                     <a class="rainbow-overlay" href="portfolio-details.html"></a>
@@ -80,7 +80,7 @@
                                 <div class="thumbnail">
                                     <figure class="card-image">
                                         <a href="portfolio-details.html">
-                                            <img src="assets/images/portfolio/portfolio-03.jpg" alt="Portfolio-01">
+                                            <img src="{{ asset('assets/portfolio/portfolio-01.jpg') }}" alt="Portfolio-01">
                                         </a>
                                     </figure>
                                     <a class="rainbow-overlay" href="portfolio-details.html"></a>
@@ -103,7 +103,7 @@
                                 <div class="thumbnail">
                                     <figure class="card-image">
                                         <a href="portfolio-details.html">
-                                            <img src="assets/images/portfolio/portfolio-04.jpg" alt="Portfolio-01">
+                                            <img src="{{ asset('assets/portfolio/portfolio-01.jpg') }}" alt="Portfolio-01">
                                         </a>
                                     </figure>
                                     <a class="rainbow-overlay" href="portfolio-details.html"></a>
@@ -126,7 +126,7 @@
                                 <div class="thumbnail">
                                     <figure class="card-image">
                                         <a href="portfolio-details.html">
-                                            <img src="assets/images/portfolio/portfolio-05.jpg" alt="Portfolio-01">
+                                            <img src="{{ asset('assets/portfolio/portfolio-01.jpg') }}" alt="Portfolio-01">
                                         </a>
                                     </figure>
                                     <a class="rainbow-overlay" href="portfolio-details.html"></a>
@@ -149,7 +149,7 @@
                                 <div class="thumbnail">
                                     <figure class="card-image">
                                         <a href="portfolio-details.html">
-                                            <img src="assets/images/portfolio/portfolio-06.jpg" alt="Portfolio-01">
+                                            <img src="{{ asset('assets/portfolio/portfolio-01.jpg') }}" alt="Portfolio-01">
                                         </a>
                                     </figure>
                                     <a class="rainbow-overlay" href="portfolio-details.html"></a>
