@@ -1,15 +1,14 @@
-@extends('layouts.app')
+@extends('layoutsindo.app')
 @section('content')
 <!-- Start Contact Area  -->
 <div class="main-content">
-
     <div class="rainbow-contact-area rainbow-section-gap">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 mb--40">
                     <div class="section-title text-center" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
-                        <h4 class="subtitle "><span class="theme-gradient">Contact Form</span></h4>
-                        <h2 class="title w-600 mb--20">Our Contact Address Here.</h2>
+                        <h4 class="subtitle "><span class="theme-gradient">Formulir Kontak</span></h4>
+                        <h2 class="title w-600 mb--20">Hubungi Kami</h2>
                     </div>
                 </div>
             </div>
@@ -23,7 +22,7 @@
                                         <i class="feather-headphones"></i>
                                     </div>
                                     <div class="inner">
-                                        <h4 class="title">Contact Phone Number</h4>
+                                        <h4 class="title">Nomor Telepon Kontak</h4>
                                         <p><a href="#">+444 555 666 777</a></p>
                                         <p><a href="#">+222 222 222 333</a></p>
                                     </div>
@@ -35,7 +34,7 @@
                                         <i class="feather-mail"></i>
                                     </div>
                                     <div class="inner">
-                                        <h4 class="title">Our Email Address</h4>
+                                        <h4 class="title">Alamat Email Kami</h4>
                                         <p><a href="mailto:admin@gmail.com">admin@gmail.com</a></p>
                                         <p><a href="mailto:example@gmail.com">example@gmail.com</a></p>
                                     </div>
@@ -47,7 +46,7 @@
                                         <i class="feather-map-pin"></i>
                                     </div>
                                     <div class="inner">
-                                        <h4 class="title">Our Location</h4>
+                                        <h4 class="title">Lokasi Kami</h4>
                                         <p>5678 Bangla Main Road, cities 580 <br> GBnagla, example 54786</p>
                                     </div>
                                 </div>

@@ -47,10 +47,10 @@ Route::middleware(['language'])->group(function () {
             return view('indonesia.portfolio');
         });
         Route::get('/teknologi', function () {
-            return view('global.teknologi');
+            return view('indonesia.teknologi');
         });
         Route::get('/keuangan', function () {
-            return view('global.keuangan');
+            return view('indonesia.keuangan');
         });
     });
 });

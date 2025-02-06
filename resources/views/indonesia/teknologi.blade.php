@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layoutsindo.app')
 @section('content')
 
 <!-- Start Slider Area  -->
@@ -7,8 +7,8 @@
         <div class="row">
             <div class="col-lg-8 col-xl-6">
                 <div class="inner text-left">
-                    <h1 class="title display-one">We provide <br> reliable Technology <br> for your business</h1>
-                    <h6 class="tag-title">SOLUTION FOR DIGITALIZATION</h6>
+                    <h1 class="title display-one">Kami menyediakan <br> Teknologi yang andal <br> untuk bisnis Anda</h1>
+                    <h6 class="tag-title">SOLUSI UNTUK DIGITALISASI</h6>
                 </div>
             </div>
         </div>
@@ -41,7 +41,7 @@
             <div class="col-lg-6 mt_md--40 mt_sm--40">
                 <div class="content">
                     <div class="inner">
-                        <h3 class="title">ITFIN Experts in <strong>Technology Development.</strong>
+                        <h3 class="title">ITFIN Ahli Dalam <strong>Pengembangan Teknologi.</strong>
                         </h3>
                         <ul class="feature-list">
                             <li>
@@ -83,7 +83,7 @@
                     <div>
                         <div class="count-number"><span class="counter">199</span></div>
                     </div>
-                    <h5 class="counter-title">Happy Clients.</h5>
+                    <h5 class="counter-title">Klien yang Puas</h5>
                 </div>
             </div>
 
@@ -92,7 +92,7 @@
                     <div>
                         <div class="count-number"><span class="counter">575</span></div>
                     </div>
-                    <h5 class="counter-title">Employees</h5>
+                    <h5 class="counter-title">Karyawan</h5>
                 </div>
             </div>
 
@@ -101,7 +101,7 @@
                     <div>
                         <div class="count-number"><span class="counter">69</span></div>
                     </div>
-                    <h5 class="counter-title">Useful Programs</h5>
+                    <h5 class="counter-title">Program yang Berguna</h5>
                 </div>
             </div>
 
@@ -110,7 +110,7 @@
                     <div>
                         <div class="count-number"><span class="counter">500</span></div>
                     </div>
-                    <h5 class="counter-title">Useful Programs</h5>
+                    <h5 class="counter-title">Program yang Berguna</h5>
                 </div>
             </div>
 
@@ -135,8 +135,8 @@
         <div class="row mb--40">
             <div class="col-lg-12">
                 <div class="section-title text-center">
-                    <h4 class="subtitle "><span class="theme-gradient">Our Service</span></h4>
-                    <h2 class="title w-600 mb--20">Our Awesome Tech Service</h2>
+                    <h4 class="subtitle "><span class="theme-gradient">Layanan Kami</span></h4>
+                    <h2 class="title w-600 mb--20">Layanan Teknologi Kami yang Luar Biasa</h2>
                 </div>
             </div>
         </div>
@@ -166,7 +166,7 @@
                         <li class="nav-item" role="presentation">
                             <a href="#" class="nav-link tab-button active tabs__tab--selected" id="home-tab-2" data-bs-toggle="tab" data-bs-target="#home-2" role="tab" aria-controls="home-2" aria-selected="true">
                                 <div class="tab">
-                                    <h4 class="title">Web Development</h4>
+                                    <h4 class="title">Pengembangan Web</h4>
                                     <p class="description">Use Doob template you can build a corporate
                                         website a short time.</p>
                                 </div>
@@ -175,7 +175,7 @@
                         <li class="nav-item" role="presentation">
                             <a href="#" class="nav-link tab-button tabs__tab--selected" id="profile-tab-2" data-bs-toggle="tab" data-bs-target="#profile-2" role="tab" aria-controls="profile-2" aria-selected="false">
                                 <div class="tab">
-                                    <h4 class="title">Mobile App Development</h4>
+                                    <h4 class="title">Pengembangan Aplikasi Mobile</h4>
                                     <p class="description">Use Doob template you can build a corporate
                                         website a short time.</p>
                                 </div>
@@ -185,7 +185,7 @@
                         <li class="nav-item" role="presentation">
                             <a href="#" class="nav-link tab-button tabs__tab--selected" id="contact-tab-2" data-bs-toggle="tab" data-bs-target="#contact-2" role="tab" aria-controls="contact-2" aria-selected="false">
                                 <div class="tab">
-                                    <h4 class="title">Data Science</h4>
+                                    <h4 class="title">Sains Data</h4>
                                     <p class="description">Use Doob template you can build a corporate
                                         website a short time.</p>
                                 </div>

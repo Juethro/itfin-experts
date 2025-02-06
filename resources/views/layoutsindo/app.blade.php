@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-style-mode" content="1"> <!-- 0 == light, 1 == dark -->
 
-    <title>ITFIN Expert - Konsultan IT</title>
+    <title>ITFIN Expert - IT Consultant</title>
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/favicon.png') }}">
     <!-- CSS ============================================ -->
@@ -41,21 +41,18 @@
                                 <ul class="mainmenu">
                                     <li><a href="/">Beranda</a></li>
 
-                                    <li><a href="/tentang">Tentang</a></li>
+                                    <li><a href="/id/tentang">Tentang</a></li>
 
                                     <li class="has-droupdown has-menu-child-item"><a href="#">Layanan</a>
                                         <ul class="submenu">
-                                            <li><a href="#">Layanan 1</a></li>
-                                            <li><a href="#">Layanan 2</a></li>
-                                            <li><a href="#">Layanan 3</a></li>
-                                            <li><a href="#">Layanan 4</a></li>
-                                            <li><a href="#">Layanan 5</a></li>
+                                            <li><a href="/id/teknologi">Pengembangan Teknoloogi</a></li>
+                                            <li><a href="/id/keuangan">Analis Keuangan</a></li>
                                         </ul>
                                     </li>
 
-                                    <li><a href="/portfolio">Portfolio</a></li>
+                                    <li><a href="/id/portfolio">Portfolio</a></li>
 
-                                    <li><a href="/kontak">Hubungi</a></li>
+                                    <li><a href="/id/kontak">Hubungi</a></li>
                                 </ul>
                             </nav>
 
@@ -108,7 +105,7 @@
                 <ul class="mainmenu">
                     <li><a href="/">Beranda</a></li>
 
-                    <li><a href="/tentang">Tentang</a></li>
+                    <li><a href="/id/tentang">Tentang</a></li>
 
                     <li class="with-megamenu has-menu-child-item"><a href="#">Layanan</a>
                         <div class="rainbow-megamenu">
@@ -117,11 +114,8 @@
                                     <div class="col-lg-3 single-mega-item">
                                         <ul class="mega-menu-item">
                                             <ul class="submenu">
-                                                <li><a href="#">Layanan 1</a></li>
-                                                <li><a href="#">Layanan 2</a></li>
-                                                <li><a href="#">Layanan 3</a></li>
-                                                <li><a href="#">Layanan 4</a></li>
-                                                <li><a href="#">Layanan 5</a></li>
+                                                <li><a href="/id/teknologi">Pengembangan Teknologi</a></li>
+                                                <li><a href="/id/keuangan">Analis Keuangan</a></li>
                                             </ul>
                                         </ul>
                                     </div>
@@ -130,9 +124,9 @@
                         </div>
                     </li>
 
-                    <li><a href="/portfolio">Portfolio</a></li>
+                    <li><a href="/id/portfolio">Portfolio</a></li>
 
-                    <li><a href="/kontak">Hubungi</a></li>
+                    <li><a href="/id/kontak">Hubungi</a></li>
                 </ul>
             </div>
         </div>
@@ -147,46 +141,18 @@
 
         <!-- Start Footer Area  -->
         <footer class="rainbow-footer footer-style-default variation-two">
-            <div class="rainbow-callto-action clltoaction-style-default style-7">
-                <div class="container">
-                    <div class="row row--0 align-items-center content-wrapper">
-                        <div class="col-lg-8 col-md-8">
-                            <div class="inner">
-                                <div class="content text-left">
-                                    <div class="logo">
-                                        <a href="index.html">
-                                            <img class="logo-light" src="{{ asset('assets/images/logo/logo.png') }}" alt="Corporate Logo">
-                                            <img class="logo-dark" src="{{ asset('assets/images/logo/logo-dark.png') }}" alt="Corporate Logo">
-                                        </a>
-                                    </div>
-                                    <p class="subtitle" data-sal="slide-up" data-sal-duration="400" data-sal-delay="150">If you want to create a corporate template you can purshace now
-                                        our doob
-                                        template.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4" data-sal="slide-up" data-sal-duration="400" data-sal-delay="150">
-                            <div class="call-to-btn text-left mt_sm--20 text-lg-right">
-                                <a class="btn-default" href="https://themeforest.net/checkout/from_item/34133466?license=regular">Purchase Doob
-                                    <i class="feather-arrow-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="footer-top">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-2 col-md-6 col-sm-6 col-12">
                             <div class="rainbow-footer-widget">
-                                <h4 class="title">Services</h4>
+                                <h4 class="title">Layanan</h4>
                                 <div class="inner">
                                     <ul class="footer-link link-hover">
-                                        <li><a href="about.html">About</a></li>
-                                        <li><a href="portfolio.html">Portfolio</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                        <li><a href="service.html">Service</a></li>
+                                        <li><a href="/id/tentang">Tentang</a></li>
+                                        <li><a href="/id/portfolio">Portfolio</a></li>
+                                        <li><a href="/id/kontak">Hubungi</a></li>
+                                        <li><a href="#">Layanan</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -197,10 +163,10 @@
                                     <h4 class="title">Solutions</h4>
                                     <div class="inner">
                                         <ul class="footer-link link-hover">
-                                            <li><a href="brand.html">Brand</a></li>
-                                            <li><a href="call-to-action.html">call To Action</a></li>
-                                            <li><a href="counter.html">Counter</a></li>
-                                            <li><a href="service.html">Service</a></li>
+                                            <li><a href="#">Brand</a></li>
+                                            <li><a href="#">call To Action</a></li>
+                                            <li><a href="#">Counter</a></li>
+                                            <li><a href="#">Service</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -211,10 +177,10 @@
                                 <h4 class="title">Company</h4>
                                 <div class="inner">
                                     <ul class="footer-link link-hover">
-                                        <li><a href="pricing.html">Pricing</a></li>
-                                        <li><a href="tab.html">Tab Styles</a></li>
-                                        <li><a href="service.html">Service</a></li>
-                                        <li><a href="social-share.html">Social</a></li>
+                                        <li><a href="#">Pricing</a></li>
+                                        <li><a href="#">Tab Styles</a></li>
+                                        <li><a href="#">Service</a></li>
+                                        <li><a href="#">Social</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -224,10 +190,10 @@
                                 <h4 class="title">Resources</h4>
                                 <div class="inner">
                                     <ul class="footer-link link-hover">
-                                        <li><a href="team.html">Team</a></li>
-                                        <li><a href="testimonial.html">Testimonial</a></li>
-                                        <li><a href="service.html">Service</a></li>
-                                        <li><a href="timeline.html">Timeline</a></li>
+                                        <li><a href="#">Team</a></li>
+                                        <li><a href="#">Testimonial</a></li>
+                                        <li><a href="#">Service</a></li>
+                                        <li><a href="#">Timeline</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -271,13 +237,13 @@
                         <div class="copyright-left">
                             <ul class="ft-menu link-hover">
                                 <li>
-                                    <a href="privacy-policy.html">Privacy Policy</a>
+                                    <a href="#">Privacy Policy</a>
                                 </li>
                                 <li>
                                     <a href="#">Terms And Condition</a>
                                 </li>
                                 <li>
-                                    <a href="/kontak">Hubungi</a>
+                                    <a href="/id/kontak">Contact Us</a>
                                 </li>
                             </ul>
                         </div>
