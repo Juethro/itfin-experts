@@ -19,16 +19,14 @@
 
                 <div class="rainbow-portfolio-filter filter-button-default messonry-button text-center mb--30">
                     <button data-filter="*" class="is-checked"><span class="filter-text">All</span></button>
-                    <button data-filter=".cat--1"><span class="filter-text">design</span></button>
-                    <button data-filter=".cat--2"><span class="filter-text">art</span></button>
-                    <button data-filter=".cat--3"><span class="filter-text">Digital</span></button>
-                    <button data-filter=".cat--4"><span class="filter-text">development</span></button>
+                    <button data-filter=".cat--1"><span class="filter-text">Technology</span></button>
+                    <button data-filter=".cat--2"><span class="filter-text">Finance</span></button>
                 </div>
 
                 <div class="portfolio-items grid-metro3 mesonry-list">
                     <div class="resizer"></div>
                     <!-- Start Single Portfolio  -->
-                    <div class="portfolio-3 cat--1 cat--4">
+                    <div class="portfolio-3 cat--1">
                         <div class="rainbow-card portfolio">
                             <div class="inner">
                                 <div class="thumbnail">
@@ -51,7 +49,7 @@
                     <!-- Start Single Portfolio  -->
 
                     <!-- Start Single Portfolio  -->
-                    <div class="portfolio-3 cat--2 cat--3">
+                    <div class="portfolio-3 cat--2">
                         <div class="rainbow-card portfolio">
                             <div class="inner">
                                 <div class="thumbnail">
@@ -74,7 +72,7 @@
                     <!-- Start Single Portfolio  -->
 
                     <!-- Start Single Portfolio  -->
-                    <div class="portfolio-3 cat--3 cat--4 cat--1">
+                    <div class="portfolio-3 cat--1">
                         <div class="rainbow-card portfolio">
                             <div class="inner">
                                 <div class="thumbnail">
@@ -97,7 +95,7 @@
                     <!-- Start Single Portfolio  -->
 
                     <!-- Start Single Portfolio  -->
-                    <div class="portfolio-3 cat--3 cat--2">
+                    <div class="portfolio-3 cat--2">
                         <div class="rainbow-card portfolio">
                             <div class="inner">
                                 <div class="thumbnail">
@@ -120,7 +118,7 @@
                     <!-- Start Single Portfolio  -->
 
                     <!-- Start Single Portfolio  -->
-                    <div class="portfolio-3 cat--2 cat--4">
+                    <div class="portfolio-3 cat--2">
                         <div class="rainbow-card portfolio">
                             <div class="inner">
                                 <div class="thumbnail">
@@ -143,7 +141,7 @@
                     <!-- Start Single Portfolio  -->
 
                     <!-- Start Single Portfolio  -->
-                    <div class="portfolio-3 cat--3 cat--2 cat--1">
+                    <div class="portfolio-3 cat--1">
                         <div class="rainbow-card portfolio">
                             <div class="inner">
                                 <div class="thumbnail">

@@ -24,6 +24,12 @@ Route::middleware(['language'])->group(function () {
         Route::get('/portfolio', function () {
             return view('global.portfolio');
         });
+        Route::get('/technology', function () {
+            return view('global.technology');
+        });
+        Route::get('/finance', function () {
+            return view('global.finance');
+        });
     });
 
     // Indonesia Route
@@ -39,6 +45,12 @@ Route::middleware(['language'])->group(function () {
         });
         Route::get('/portfolio', function () {
             return view('indonesia.portfolio');
+        });
+        Route::get('/teknologi', function () {
+            return view('global.teknologi');
+        });
+        Route::get('/keuangan', function () {
+            return view('global.keuangan');
         });
     });
 });

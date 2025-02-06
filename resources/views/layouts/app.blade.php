@@ -45,11 +45,8 @@
 
                                     <li class="has-droupdown has-menu-child-item"><a href="#">Service</a>
                                         <ul class="submenu">
-                                            <li><a href="#">Service 1</a></li>
-                                            <li><a href="#">Service 2</a></li>
-                                            <li><a href="#">Service 3</a></li>
-                                            <li><a href="#">Service 4</a></li>
-                                            <li><a href="#">Service 5</a></li>
+                                            <li><a href="/en/technology">Technology Development</a></li>
+                                            <li><a href="/en/finance">Finance Analyst</a></li>
                                         </ul>
                                     </li>
 
