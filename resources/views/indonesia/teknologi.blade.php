@@ -28,11 +28,11 @@
                             <div class="thumbnail">
                                 <img class="radius-small" src="{{ asset('assets/images/about/contact-image.jpg') }}" alt="Corporate Image">
                             </div>
-                            <div class="video-icon">
+                            {{-- <div class="video-icon">
                                 <a class="btn-default rounded-player popup-video" href="https://www.youtube.com/watch?v=tj9-MGHCs38">
                                     <span><i class="feather-play"></i></span>
                                 </a>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                     <div class="video-lightbox-wrapper"></div>
@@ -49,9 +49,8 @@
                                     <i class="feather-check"></i>
                                 </div>
                                 <div class="title-wrapper">
-                                    <h4 class="title">A good traveler has no fixed plans</h4>
-                                    <p class="text">Lorem ipsum dolor consectetur adipiscing do eiusmod tempor
-                                        incididunt labore.</p>
+                                    <h4 class="title">Solusi Digital yang Disesuaikan</h4>
+                                    <p class="text">Kami mengembangkan solusi berbasis teknologi yang dirancang khusus untuk kebutuhan bisnis Anda, memastikan efisiensi dan skalabilitas.</p>
                                 </div>
                             </li>
                             <li>
@@ -59,9 +58,8 @@
                                     <i class="feather-check"></i>
                                 </div>
                                 <div class="title-wrapper">
-                                    <h4 class="title">A good traveler has no fixed plans</h4>
-                                    <p class="text">Lorem ipsum dolor consectetur adipiscing do eiusmod tempor
-                                        incididunt labore.</p>
+                                    <h4 class="title">Keamanan dan Keandalan Sistem</h4>
+                                    <p class="text">Dengan standar keamanan tinggi, kami memastikan sistem Anda terlindungi dari ancaman siber dan dapat diandalkan untuk operasional bisnis jangka panjang.</p>
                                 </div>
                             </li>
                         </ul>
@@ -167,8 +165,7 @@
                             <a href="#" class="nav-link tab-button active tabs__tab--selected" id="home-tab-2" data-bs-toggle="tab" data-bs-target="#home-2" role="tab" aria-controls="home-2" aria-selected="true">
                                 <div class="tab">
                                     <h4 class="title">Pengembangan Web</h4>
-                                    <p class="description">Use Doob template you can build a corporate
-                                        website a short time.</p>
+                                    <p class="description">Kami membangun website yang cepat, responsif, dan aman dengan teknologi terbaru untuk meningkatkan visibilitas dan efisiensi bisnis Anda.</p>
                                 </div>
                             </a>
                         </li>
@@ -176,8 +173,7 @@
                             <a href="#" class="nav-link tab-button tabs__tab--selected" id="profile-tab-2" data-bs-toggle="tab" data-bs-target="#profile-2" role="tab" aria-controls="profile-2" aria-selected="false">
                                 <div class="tab">
                                     <h4 class="title">Pengembangan Aplikasi Mobile</h4>
-                                    <p class="description">Use Doob template you can build a corporate
-                                        website a short time.</p>
+                                    <p class="description">Kami menghadirkan aplikasi mobile inovatif yang dirancang untuk memberikan pengalaman pengguna yang optimal.</p>
                                 </div>
                             </a>
                         </li>
@@ -185,9 +181,8 @@
                         <li class="nav-item" role="presentation">
                             <a href="#" class="nav-link tab-button tabs__tab--selected" id="contact-tab-2" data-bs-toggle="tab" data-bs-target="#contact-2" role="tab" aria-controls="contact-2" aria-selected="false">
                                 <div class="tab">
-                                    <h4 class="title">Sains Data</h4>
-                                    <p class="description">Use Doob template you can build a corporate
-                                        website a short time.</p>
+                                    <h4 class="title">Cyber Sercurity</h4>
+                                    <p class="description">Lindungi data dan sistem bisnis Anda dengan solusi keamanan siber canggih, termasuk enkripsi, deteksi ancaman, dan perlindungan terhadap serangan siber.</p>
                                 </div>
                             </a>
                         </li>

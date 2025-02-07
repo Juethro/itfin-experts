@@ -6,12 +6,13 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <div class="inner text-center"><span class="subtitle">Konsultan IT Profesional</span>
-                    <h1 class="title display-one">Mitra Solusi IT Terbaik untuk <span>Bisnis Anda</span></h1>
-                    <p class="description">Kami adalah konsultan IT yang membantu bisnis Anda beradaptasi dengan
-                        teknologi modern untuk mencapai tujuan Anda.</p>
-                    <div class="button-group"><a class="btn-default btn-medium round btn-icon" href="#">Pelajari Lebih Lanjut
-                            <i class="icon feather-arrow-right"></i></a><a class="btn-default btn-medium btn-border round btn-icon" href="/id/contact">Hubungi Kami <i class="icon feather-arrow-right">
+                <div class="inner text-center"><span class="subtitle">Konsultan IT dan Finansial Profesional</span>
+                    <h1 class="title display-one">Mitra Solusi IT dan Finansial Terbaik untuk <span>Bisnis Anda</span></h1>
+                    <p class="description">Kami adalah konsultan IT dan finansial yang membantu bisnis Anda beradaptasi dengan 
+                        teknologi modern dan solusi keuangan inovatif untuk mencapai tujuan Anda.</p>
+
+                    <div class="button-group"><a class="btn-default btn-medium round btn-icon" href="/id/tentang">Pelajari Lebih Lanjut
+                            <i class="icon feather-arrow-right"></i></a><a class="btn-default btn-medium btn-border round btn-icon" href="/id/kontak">Hubungi Kami <i class="icon feather-arrow-right">
                             </i></a></div>
                 </div>
             </div>
@@ -29,17 +30,22 @@
 <!-- End Seperator Area  -->
 
 <!-- Start Service Area  -->
-<div class="service-area rainbow-section-gapTop">
+<div class="service-area rainbow-section-gap">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
                 <div class="content">
-                    <h3 class="title">Kami adalah agensi digital yang bekerja untuk klien kami yang puas.</h3>
+                    <h3 class="title">Kami adalah konsultan digital dan finansial yang bekerja hingga klien kami yang puas.</h3>
                 </div>
             </div>
             <div class="col-lg-6">
-                <p class="mb--10">Kami adalah konsultan IT profesional dengan pengalaman lebih dari 10 tahun,
-                    berfokus pada memberikan solusi teknologi inovatif untuk bisnis dari berbagai industri</p>
+                <p class="mb--10">Kami menghadirkan solusi teknologi dan finansial yang dirancang untuk membantu bisnis tumbuh lebih cepat, 
+                    lebih efisien, dan lebih siap menghadapi tantangan masa depan. Dengan pengalaman lebih dari 10 tahun, kami mengintegrasikan 
+                    inovasi digital dengan strategi keuangan yang cerdas untuk meningkatkan produktivitas, mengoptimalkan operasional, 
+                    dan menciptakan peluang pertumbuhan berkelanjutan bagi bisnis Anda.</p>
+                <div class="read-morebtn" style="margin-top: 20px;" data-sal="slide-up" data-sal-duration="700" data-sal-delay="300">
+                    <a class="btn-default btn-small round" href="/id/kontak"><span>Mulai Sekarang</span></a>
+                </div>
             </div>
         </div>
     </div>
@@ -60,7 +66,7 @@
         <div class="row row--15 service-wrapper">
             <div class="col-lg-12">
                 <div class="section-title text-center" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
-                    <h4 class="subtitle "><span class="theme-gradient">Layanan Terbaiki</span></h4>
+                    <h4 class="subtitle "><span class="theme-gradient">Layanan Terbaik</span></h4>
                     <h2 class="title w-600 mb--20">Layanan Kami</h2>
                     <p class="description b1">Kami menyediakan layanan teknologi dan keuangan untuk <br>
                         startup dan korporat.</p>
@@ -73,7 +79,7 @@
                             <i class="feather-activity"></i>
                         </div>
                         <div class="content">
-                            <h4 class="title w-600"><a href="#">Analis Keuangan</a></h4>
+                            <h4 class="title w-600"><a href="/id/keuangan">Analisis Keuangan</a></h4>
                             <p class="description b1 color-gray mb--0">
                                 There are many variations of passages of Lorem Ipsum available, but the majority have suffered.
                             </p>
@@ -87,7 +93,7 @@
                             <i class="feather-cast"></i>
                         </div>
                         <div class="content">
-                            <h4 class="title w-600"><a href="#">Pengembangan Teknologi</a></h4>
+                            <h4 class="title w-600"><a href="id/teknologi">Pengembangan Teknologi</a></h4>
                             <p class="description b1 color-gray mb--0">
                                 There are many variations of passages of Lorem Ipsum available, but the majority have suffered.
                             </p>
@@ -161,7 +167,7 @@
                                                 </div>
                                             </div>
                                             <div class="read-morebtn" data-sal="slide-up" data-sal-duration="700" data-sal-delay="300">
-                                                <a class="btn-default btn-large round" href="/id/contact"><span>Get Started Now</span></a>
+                                                <a class="btn-default btn-large round" href="/id/kontak"><span>Mulai Sekarang</span></a>
                                             </div>
                                         </div>
                                     </div>
@@ -209,8 +215,8 @@
                                                 </div>
                                             </div>
                                             <div class="read-morebtn" data-sal="slide-up" data-sal-duration="700" data-sal-delay="400">
-                                                <a class="btn-default btn-large round" href="/id/contact">
-                                                    <span>Get Started Now</span>
+                                                <a class="btn-default btn-large round" href="/id/kontak">
+                                                    <span>Mulai Sekarang</span>
                                                 </a>
                                             </div>
                                         </div>
@@ -259,8 +265,8 @@
                                                 </div>
                                             </div>
                                             <div class="read-morebtn" data-sal="slide-up" data-sal-duration="700" data-sal-delay="400">
-                                                <a class="btn-default btn-large round" href="/id/contact">
-                                                    <span>Get Started Now</span>
+                                                <a class="btn-default btn-large round" href="/id/kontak">
+                                                    <span>Mulai Sekarang</span>
                                                 </a>
                                             </div>
                                         </div>
@@ -310,8 +316,8 @@
                                                 </div>
                                             </div>
                                             <div class="read-morebtn" data-sal="slide-up" data-sal-duration="700" data-sal-delay="400">
-                                                <a class="btn-default btn-large round" href="/id/contact">
-                                                    <span>Get Started Now</span>
+                                                <a class="btn-default btn-large round" href="/id/kontak">
+                                                    <span>Mulai Sekarang</span>
                                                 </a>
                                             </div>
                                         </div>
@@ -361,8 +367,8 @@
                                                 </div>
                                             </div>
                                             <div class="read-morebtn" data-sal="slide-up" data-sal-duration="700" data-sal-delay="400">
-                                                <a class="btn-default btn-large round" href="/id/contact">
-                                                    <span>Get Started Now</span>
+                                                <a class="btn-default btn-large round" href="/id/kontak">
+                                                    <span>Mulai Sekarang</span>
                                                 </a>
                                             </div>
                                         </div>
@@ -558,16 +564,13 @@
                             <div class="accordion-item card">
                                 <h2 class="accordion-header card-header" id="headingFour">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                        How can I run doob html template?
+                                        Bagaimana sistem pembayarannya?
                                     </button>
                                 </h2>
                                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExamplea">
                                     <div class="accordion-body card-body">
-                                        You can run doob easily. First You'll need to have node and npm on your
-                                        machine. So Please open your command prompt then check your node -v and
-                                        npm -v Version. Goes To Your your command prompt: then First: npm
-                                        install At Last: npm run start. By the following way you can be run your
-                                        project easily.
+                                        Kamu bisa melakukan pembayaran melalui transfer bank maupun kartu kredit.
+                                        Pembayaran sesuai dengan kesepakatan awal ketika membuat jadwal dengan kami.
                                     </div>
                                 </div>
                             </div>
@@ -598,10 +601,10 @@
                     <div class="col-lg-12">
                         <div class="inner">
                             <div class="content text-center">
-                                <h2 class="title">Siap bekerja dengan ITFIN?</h2>
+                                <h2 class="title">Siap Meningkatkan Bisnis Anda Bersama ITFIN?</h2>
                                 <h6 class="subtitle">Hubungi Kami &amp; Jadwalkan Pertemuan</h6>
                                 <div class="call-to-btn">
-                                    <a class="btn-default btn-icon" href="/id/contact">Hubungi
+                                    <a class="btn-default btn-icon" href="/id/kontak">Hubungi Kami
                                         <i class="feather-arrow-right"></i>
                                     </a>
                                 </div>

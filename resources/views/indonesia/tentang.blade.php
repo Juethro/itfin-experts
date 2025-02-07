@@ -19,7 +19,7 @@
 <!-- End Slider Area  -->
 
 <!-- Start Service Area  -->
-<div class="service-area rainbow-section-gapTop">
+<div class="service-area rainbow-section-gap">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
@@ -28,16 +28,18 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <p class="mb--10">Kami adalah mitra terpercaya yang memberikan 
-                    solusi IT inovatif untuk membantu bisnis Anda tumbuh 
-                    dan berkembang di era digital</p>
+                <p class="mb--10">Kami menghadirkan solusi teknologi dan finansial yang dirancang untuk membantu bisnis tumbuh lebih cepat, 
+                    lebih efisien, dan lebih siap menghadapi tantangan masa depan. Dengan pengalaman lebih dari 10 tahun, kami mengintegrasikan 
+                    inovasi digital dengan strategi keuangan yang cerdas untuk meningkatkan produktivitas, mengoptimalkan operasional, 
+                    dan menciptakan peluang pertumbuhan berkelanjutan bagi bisnis Anda.</p>
             </div>
         </div>
     </div>
 </div>
 <!-- End Service Area  -->
 
-<!-- Start Brand Area  -->
+
+{{-- <!-- Start Brand Area  -->
 <div class="rainbow-brand-area pb--60 pt--30">
     <div class="container">
         <div class="row">
@@ -58,7 +60,7 @@
         </div>
     </div>
 </div>
-<!-- End Brand Area  -->
+<!-- End Brand Area  --> --}}
 
 <!-- Section separator  -->
 <!-- Start Seperator Area  -->

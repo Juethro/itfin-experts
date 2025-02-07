@@ -7,12 +7,12 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="inner text-start">
-                    <h4 class="subtitle">BERTEMU DAN KONSULTASIKAN</h4>
-                    <h1 class="title display-one">Ahli <br>Analisis Keuangan</h1>
+                    <h4 class="subtitle">SOLUSI KEUANGAN YANG TEPAT</h4>
+                    <h1 class="title display-one">Optimalkan Keuangan <br> dengan Analisis yang Akurat</h1>
                 </div>
             </div>
         </div>
-    </div>
+    </div>    
 </div>
 <!-- End Slider Area  -->
 
@@ -62,8 +62,7 @@
                             <a href="#" class="nav-link tab-button active tabs__tab--selected" id="home-tab-2" data-bs-toggle="tab" data-bs-target="#home-2" role="tab" aria-controls="home-2" aria-selected="true">
                                 <div class="tab">
                                     <h4 class="title">Analis Keuangan</h4>
-                                    <p class="description">Use Doob template you can build a corporate
-                                        website a short time.</p>
+                                    <p class="description">Kami menyediakan layanan analisis keuangan mendalam untuk membantu bisnis mengambil keputusan strategis.</p>
                                 </div>
                             </a>
                         </li>
@@ -71,23 +70,19 @@
                             <a href="#" class="nav-link tab-button tabs__tab--selected" id="profile-tab-2" data-bs-toggle="tab" data-bs-target="#profile-2" role="tab" aria-controls="profile-2" aria-selected="false">
                                 <div class="tab">
                                     <h4 class="title">Akuntansi</h4>
-                                    <p class="description">Use Doob template you can build a corporate
-                                        website a short time.</p>
+                                    <p class="description">Layanan akuntansi kami memastikan pencatatan keuangan yang transparan, akurat, dan sesuai dengan standar regulasi.</p>
                                 </div>
                             </a>
                         </li>
-
                         <li class="nav-item" role="presentation">
                             <a href="#" class="nav-link tab-button tabs__tab--selected" id="contact-tab-2" data-bs-toggle="tab" data-bs-target="#contact-2" role="tab" aria-controls="contact-2" aria-selected="false">
                                 <div class="tab">
                                     <h4 class="title">Peramalan</h4>
-                                    <p class="description">Use Doob template you can build a corporate
-                                        website a short time.</p>
+                                    <p class="description">Kami membantu bisnis memprediksi tren keuangan dan pasar dengan metode prediksi berbasis data.</p>
                                 </div>
                             </a>
                         </li>
-
-                    </ul>
+                    </ul>                    
                 </div>
             </div>
         </div>
