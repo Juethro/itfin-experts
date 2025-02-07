@@ -27,9 +27,6 @@ Route::middleware(['language'])->group(function () {
         Route::get('/technology', function () {
             return view('global.technology');
         });
-        Route::get('/finance', function () {
-            return view('global.finance');
-        });
     });
 
     // Indonesia Route

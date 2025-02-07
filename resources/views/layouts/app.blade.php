@@ -46,7 +46,6 @@
                                     <li class="has-droupdown has-menu-child-item"><a href="#">Service</a>
                                         <ul class="submenu">
                                             <li><a href="/en/technology">Technology Development</a></li>
-                                            <li><a href="/en/finance">Finance Analyst</a></li>
                                         </ul>
                                     </li>
 
@@ -115,7 +114,6 @@
                                         <ul class="mega-menu-item">
                                             <ul class="submenu">
                                                 <li><a href="/en/technology">Technology Development</a></li>
-                                                <li><a href="/en/finance">Finance Analyst</a></li>
                                             </ul>
                                         </ul>
                                     </div>

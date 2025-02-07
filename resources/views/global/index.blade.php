@@ -68,20 +68,6 @@
                 </div>
             </div>
             <div class="d-flex justify-content-center align-items-center flex-wrap">
-                <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-sal="slide-up" data-sal-duration="800">
-                    <div class="service service__style--1 icon-circle-style text-center">
-                        <div class="icon">
-                            <i class="feather-activity"></i>
-                        </div>
-                        <div class="content">
-                            <h4 class="title w-600"><a href="#">Finance Analyst</a></h4>
-                            <p class="description b1 color-gray mb--0">
-                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
                 <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-sal="slide-up" data-sal-delay="200" data-sal-duration="800">
                     <div class="service service__style--1 icon-circle-style text-center">
                         <div class="icon">
