@@ -153,7 +153,7 @@
                                     </div>
                                     <div class="col-lg-6 order-1 order-lg-2">
                                         <div class="thumbnail">
-                                            <img class="w-100" src="{{ asset('assets/images/timeline/timeline-01.jpg') }}" alt="Corporate Html Template">
+                                            <img class="w-100" src="{{ asset('assets/images/timeline/timeline-01.png') }}" alt="Corporate Html Template">
                                         </div>
                                     </div>
                                 </div>
@@ -203,7 +203,7 @@
                                     </div>
                                     <div class="col-lg-6 order-1 order-lg-2">
                                         <div class="thumbnail">
-                                            <img class="w-100" src="{{ asset('assets/images/timeline/timeline-02.jpg') }}" alt="Corporate Html Template">
+                                            <img class="w-100" src="{{ asset('assets/images/timeline/timeline-02.png') }}" alt="Corporate Html Template">
                                         </div>
                                     </div>
                                 </div>
@@ -253,7 +253,7 @@
                                     </div>
                                     <div class="col-lg-6 order-1 order-lg-2">
                                         <div class="thumbnail">
-                                            <img class="w-100" src="{{ asset('assets/images/timeline/timeline-02.jpg') }}" alt="Corporate Html Template">
+                                            <img class="w-100" src="{{ asset('assets/images/timeline/timeline-03.png') }}" alt="Corporate Html Template">
                                         </div>
                                     </div>
                                 </div>
@@ -303,7 +303,7 @@
                                     </div>
                                     <div class="col-lg-6 order-1 order-lg-2">
                                         <div class="thumbnail">
-                                            <img class="w-100" src="{{ asset('assets/images/timeline/timeline-02.jpg') }}" alt="Corporate Html Template">
+                                            <img class="w-100" src="{{ asset('assets/images/timeline/timeline-04.png') }}" alt="Corporate Html Template">
                                         </div>
                                     </div>
                                 </div>
@@ -353,7 +353,7 @@
                                     </div>
                                     <div class="col-lg-6 order-1 order-lg-2">
                                         <div class="thumbnail">
-                                            <img class="w-100" src="{{ asset('assets/images/timeline/timeline-02.jpg') }}" alt="Corporate Html Template">
+                                            <img class="w-100" src="{{ asset('assets/images/timeline/timeline-05.png') }}" alt="Corporate Html Template">
                                         </div>
                                     </div>
                                 </div>
@@ -496,7 +496,7 @@
         <div class="row row--30">
             <div class="col-lg-5">
                 <div class="thumbnail" data-sal="slide-right" data-sal-duration="700">
-                    <img class="w-100" src="{{ asset('assets/images/about/about-1.png') }}" alt="About Images">
+                    <img class="w-100" src="{{ asset('assets/images/about/FAQ.png') }}" alt="About Images">
                 </div>
             </div>
             <div class="col-lg-7 mt_md--40 mt_sm--40" data-sal="slide-left" data-sal-duration="700">
