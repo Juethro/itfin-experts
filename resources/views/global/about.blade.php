@@ -19,7 +19,7 @@
 <!-- End Slider Area  -->
 
 <!-- Start Service Area  -->
-<div class="service-area rainbow-section-gapTop">
+<div class="service-area rainbow-section-gap">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
@@ -28,15 +28,18 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <p class="mb--10">We are your trusted partner in delivering innovative
-                    IT solutions to help your business thrive and grow in the digital era</p>
+                <p class="mb--10">We provide technology and financial solutions designed to help businesses grow faster,  
+                    operate more efficiently, and be better prepared for future challenges. With over 10 years of experience,  
+                    we integrate digital innovation with smart financial strategies to enhance productivity, optimize operations,  
+                    and create sustainable growth opportunities for your business.</p>
             </div>
+            
         </div>
     </div>
 </div>
 <!-- End Service Area  -->
 
-<!-- Start Brand Area  -->
+{{-- <!-- Start Brand Area  -->
 <div class="rainbow-brand-area pb--60 pt--30">
     <div class="container">
         <div class="row">
@@ -57,7 +60,7 @@
         </div>
     </div>
 </div>
-<!-- End Brand Area  -->
+<!-- End Brand Area  --> --}}
 
 <!-- Section separator  -->
 <!-- Start Seperator Area  -->
@@ -79,12 +82,12 @@
                         <span class="theme-gradient">History</span>
                     </h4>
                     <h2 class="title w-600 mb--20">Our History</h2>
-                    <p class="description b1">Founded in 2012, our company began its journey
-                        with a vision to deliver innovative IT solutions for local businesses.
-                        Over time, we expanded our services to include software development,
-                        digital transformation, and advanced IT consulting.
-                        Today, we have become a trusted technology partner for more than
-                        100 companies in Indonesia and abroad</p>
+                    <p class="description b1">Founded in 2012,  
+                        our company began its journey with a vision to provide innovative IT solutions for local businesses.  
+                        Over time, we expanded our services to include software development, digital transformation,  
+                        and advanced IT consulting. Today, we have become a trusted technology partner for  
+                        over 100 companies in Indonesia and beyond.</p>
+                    
                 </div>
             </div>
         </div>

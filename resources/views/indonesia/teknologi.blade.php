@@ -108,7 +108,7 @@
                     <div>
                         <div class="count-number"><span class="counter">500</span></div>
                     </div>
-                    <h5 class="counter-title">Program yang Berguna</h5>
+                    <h5 class="counter-title">Program yang Bermanfaat</h5>
                 </div>
             </div>
 

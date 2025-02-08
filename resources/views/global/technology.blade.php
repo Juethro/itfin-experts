@@ -28,11 +28,11 @@
                             <div class="thumbnail">
                                 <img class="radius-small" src="{{ asset('assets/images/about/contact-image.jpg') }}" alt="Corporate Image">
                             </div>
-                            <div class="video-icon">
+                            {{-- <div class="video-icon">
                                 <a class="btn-default rounded-player popup-video" href="https://www.youtube.com/watch?v=tj9-MGHCs38">
                                     <span><i class="feather-play"></i></span>
                                 </a>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                     <div class="video-lightbox-wrapper"></div>
@@ -49,9 +49,8 @@
                                     <i class="feather-check"></i>
                                 </div>
                                 <div class="title-wrapper">
-                                    <h4 class="title">A good traveler has no fixed plans</h4>
-                                    <p class="text">Lorem ipsum dolor consectetur adipiscing do eiusmod tempor
-                                        incididunt labore.</p>
+                                    <h4 class="title">Tailored Digital Solutions</h4>
+                                    <p class="text">We develop technology-based solutions specifically designed to meet your business needs, ensuring efficiency and scalability.</p>
                                 </div>
                             </li>
                             <li>
@@ -59,12 +58,12 @@
                                     <i class="feather-check"></i>
                                 </div>
                                 <div class="title-wrapper">
-                                    <h4 class="title">A good traveler has no fixed plans</h4>
-                                    <p class="text">Lorem ipsum dolor consectetur adipiscing do eiusmod tempor
-                                        incididunt labore.</p>
+                                    <h4 class="title">System Security and Reliability</h4>
+                                    <p class="text">With high-security standards, we ensure that your system is protected from cyber threats and remains reliable for long-term business operations.</p>
                                 </div>
                             </li>
                         </ul>
+                        
                     </div>
                 </div>
             </div>
@@ -167,8 +166,7 @@
                             <a href="#" class="nav-link tab-button active tabs__tab--selected" id="home-tab-2" data-bs-toggle="tab" data-bs-target="#home-2" role="tab" aria-controls="home-2" aria-selected="true">
                                 <div class="tab">
                                     <h4 class="title">Web Development</h4>
-                                    <p class="description">Use Doob template you can build a corporate
-                                        website a short time.</p>
+                                    <p class="description">We design and develop responsive, high-performance websites tailored to your business needs.</p>
                                 </div>
                             </a>
                         </li>
@@ -176,23 +174,20 @@
                             <a href="#" class="nav-link tab-button tabs__tab--selected" id="profile-tab-2" data-bs-toggle="tab" data-bs-target="#profile-2" role="tab" aria-controls="profile-2" aria-selected="false">
                                 <div class="tab">
                                     <h4 class="title">Mobile App Development</h4>
-                                    <p class="description">Use Doob template you can build a corporate
-                                        website a short time.</p>
+                                    <p class="description">We build user-friendly and scalable mobile applications for iOS and Android platforms.</p>
                                 </div>
                             </a>
                         </li>
-
                         <li class="nav-item" role="presentation">
                             <a href="#" class="nav-link tab-button tabs__tab--selected" id="contact-tab-2" data-bs-toggle="tab" data-bs-target="#contact-2" role="tab" aria-controls="contact-2" aria-selected="false">
                                 <div class="tab">
                                     <h4 class="title">Data Science</h4>
-                                    <p class="description">Use Doob template you can build a corporate
-                                        website a short time.</p>
+                                    <p class="description">We leverage data analytics and machine learning to extract valuable insights for your business growth.</p>
                                 </div>
                             </a>
                         </li>
-
                     </ul>
+                    
                 </div>
             </div>
         </div>

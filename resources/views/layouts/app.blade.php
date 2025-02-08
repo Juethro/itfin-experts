@@ -45,7 +45,7 @@
 
                                     <li class="has-droupdown has-menu-child-item"><a href="#">Service</a>
                                         <ul class="submenu">
-                                            <li><a href="/en/technology">Technology Development</a></li>
+                                            <li><a href="/en/technology">IT Consultant</a></li>
                                         </ul>
                                     </li>
 
@@ -147,10 +147,10 @@
                                 <h4 class="title">Services</h4>
                                 <div class="inner">
                                     <ul class="footer-link link-hover">
-                                        <li><a href="/en/about">About</a></li>
-                                        <li><a href="/en/portfolio">Portfolio</a></li>
-                                        <li><a href="/en/contact">Contact</a></li>
-                                        <li><a href="/en/service">Service</a></li>
+                                        <li><a href="/en/technology">IT Consultant</a></li>
+                                        {{-- <li><a href="/en/portfolio">Portfolio</a></li> --}}
+                                        {{-- <li><a href="/en/contact">Contact</a></li>
+                                        <li><a href="/en/service">Service</a></li> --}}
                                     </ul>
                                 </div>
                             </div>
@@ -158,13 +158,13 @@
                         <div class="col-lg-2 col-md-6 col-sm-6 col-12">
                             <div class="rainbow-footer-widget">
                                 <div class="widget-menu-top">
-                                    <h4 class="title">Solutions</h4>
+                                    <h4 class="title">About Us</h4>
                                     <div class="inner">
                                         <ul class="footer-link link-hover">
-                                            <li><a href="#">Brand</a></li>
-                                            <li><a href="#">call To Action</a></li>
+                                            <li><a href="/en/about">About Us</a></li>
+                                            {{-- <li><a href="#">call To Action</a></li>
                                             <li><a href="#">Counter</a></li>
-                                            <li><a href="#">Service</a></li>
+                                            <li><a href="#">Service</a></li> --}}
                                         </ul>
                                     </div>
                                 </div>
@@ -172,35 +172,35 @@
                         </div>
                         <div class="col-lg-2 col-md-6 col-sm-6 col-12">
                             <div class="rainbow-footer-widget">
-                                <h4 class="title">Company</h4>
+                                <h4 class="title">Portfolio</h4>
                                 <div class="inner">
                                     <ul class="footer-link link-hover">
-                                        <li><a href="#">Pricing</a></li>
-                                        <li><a href="#">Tab Styles</a></li>
+                                        <li><a href="/en/portfolio">Portfolio</a></li>
+                                        {{-- <li><a href="#">Tab Styles</a></li>
                                         <li><a href="#">Service</a></li>
-                                        <li><a href="#">Social</a></li>
+                                        <li><a href="#">Social</a></li> --}}
                                     </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-2 col-md-6 col-sm-6 col-12">
                             <div class="rainbow-footer-widget">
-                                <h4 class="title">Resources</h4>
+                                <h4 class="title">Contact Us</h4>
                                 <div class="inner">
                                     <ul class="footer-link link-hover">
-                                        <li><a href="#">Team</a></li>
+                                        {{-- <li><a href="#">Team</a></li>
                                         <li><a href="#">Testimonial</a></li>
-                                        <li><a href="#">Service</a></li>
-                                        <li><a href="#">Timeline</a></li>
+                                        <li><a href="#">Service</a></li> --}}
+                                        <li><a href="/en/contact">Contact Us</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                             <div class="rainbow-footer-widget">
-                                <h4 class="title">Stay With Us.</h4>
+                                <h4 class="title">Keep Following Us</h4>
                                 <div class="inner">
-                                    <h6 class="subtitle">2000+ Our clients are subscribe Around the World</h6>
+                                    {{-- <h6 class="subtitle">2000+ Our clients are subscribe Around the World</h6> --}}
                                     <ul class="social-icon social-default justify-content-start">
                                         <li><a href="https://www.facebook.com/">
                                                 <i class="feather-facebook"></i>
@@ -234,12 +234,12 @@
                     <div class="col-lg-6 col-md-8 col-sm-12 col-12">
                         <div class="copyright-left">
                             <ul class="ft-menu link-hover">
-                                <li>
+                                {{-- <li>
                                     <a href="#">Privacy Policy</a>
                                 </li>
                                 <li>
                                     <a href="#">Terms And Condition</a>
-                                </li>
+                                </li> --}}
                                 <li>
                                     <a href="/en/contact">Contact Us</a>
                                 </li>

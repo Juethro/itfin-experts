@@ -10,7 +10,7 @@
                     <h1 class="title display-one">Your Trusted IT Solutions <span>Partner</span></h1>
                     <p class="description">We are an IT consultancy dedicated to helping your
                         business adapt to modern technology and achieve its goals.</p>
-                    <div class="button-group"><a class="btn-default btn-medium round btn-icon" href="#">Learn More
+                    <div class="button-group"><a class="btn-default btn-medium round btn-icon" href="/en/technology">Learn More
                             <i class="icon feather-arrow-right"></i></a><a class="btn-default btn-medium btn-border round btn-icon" href="/en/contact">Contact
                             Us <i class="icon feather-arrow-right">
                             </i></a></div>
@@ -30,17 +30,20 @@
 <!-- End Seperator Area  -->
 
 <!-- Start Service Area  -->
-<div class="service-area rainbow-section-gapTop">
+<div class="service-area rainbow-section-gap">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
                 <div class="content">
-                    <h3 class="title">We are creative digital agency working for our happy clients.</h3>
+                    <h3 class="title">We are creative digital agency working for our happy clients</h3>
                 </div>
             </div>
             <div class="col-lg-6">
                 <p class="mb--10">We are a professional IT consultancy with over 10 years of experience,
                     specializing in delivering innovative technology solutions for businesses across various industries</p>
+                <div class="read-morebtn" style="margin-top: 20px;" data-sal="slide-up" data-sal-duration="700" data-sal-delay="300">
+                    <a class="btn-default btn-small round" href="/en/contact"><span>Contact Us</span></a>
+                </div>
             </div>
         </div>
     </div>
@@ -74,7 +77,7 @@
                             <i class="feather-cast"></i>
                         </div>
                         <div class="content">
-                            <h4 class="title w-600"><a href="#">Technology Development</a></h4>
+                            <h4 class="title w-600"><a href="/en/technology">Technology Development</a></h4>
                             <p class="description b1 color-gray mb--0">
                                 There are many variations of passages of Lorem Ipsum available, but the majority have suffered.
                             </p>
@@ -550,19 +553,17 @@
                             <div class="accordion-item card">
                                 <h2 class="accordion-header card-header" id="headingFour">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                        How can I run doob html template?
+                                        What about the payment methods?
                                     </button>
                                 </h2>
                                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExamplea">
                                     <div class="accordion-body card-body">
-                                        You can run doob easily. First You'll need to have node and npm on your
-                                        machine. So Please open your command prompt then check your node -v and
-                                        npm -v Version. Goes To Your your command prompt: then First: npm
-                                        install At Last: npm run start. By the following way you can be run your
-                                        project easily.
+                                        We offer multiple payment methods to ensure convenience and security for our customers.  
+                                        You can pay via credit card, bank transfer, PayPal, and other digital payment solutions.  
+                                        If you need assistance or have specific payment preferences, feel free to contact our support team.
                                     </div>
                                 </div>
-                            </div>
+                            </div>                            
 
                         </div>
                     </div>

@@ -23,7 +23,7 @@
                                     </div>
                                     <div class="inner">
                                         <h4 class="title">Contact Phone Number</h4>
-                                        <p><a href="#">+444 555 666 777</a></p>
+                                        <p><a href="#">+444 555 666 777 (Whatsapp)</a></p>
                                         <p><a href="#">+222 222 222 333</a></p>
                                     </div>
                                 </div>

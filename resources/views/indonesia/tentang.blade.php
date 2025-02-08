@@ -82,14 +82,12 @@
                         <span class="theme-gradient">Sejarah</span>
                     </h4>
                     <h2 class="title w-600 mb--20">Sejarah Kami</h2>
-                    <p class="description b1">Didirikan pada tahun 2012, 
-                        perusahaan kami memulai perjalanan dengan visi untuk 
-                        memberikan solusi IT yang inovatif bagi bisnis lokal. 
-                        Seiring waktu, kami memperluas layanan hingga mencakup 
-                        pengembangan perangkat lunak, transformasi digital, dan 
-                        konsultasi IT tingkat lanjut. Saat ini, kami telah menjadi 
-                        mitra teknologi tepercaya bagi lebih dari 100 perusahaan di 
-                        Indonesia dan mancanegara</p>
+                    <p class="description b1">Didirikan pada tahun 2012,  
+                        perusahaan kami memulai perjalanan dengan visi untuk memberikan solusi IT yang inovatif bagi bisnis lokal.  
+                        Seiring waktu, kami memperluas layanan hingga mencakup pengembangan perangkat lunak, transformasi digital,  
+                        konsultasi IT tingkat lanjut, serta layanan konsultasi finansial. Saat ini, kami telah menjadi  
+                        mitra teknologi dan finansial tepercaya bagi lebih dari 100 perusahaan di Indonesia dan mancanegara.</p>
+                    
                 </div>
             </div>
         </div>

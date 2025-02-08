@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 
 <head>
     <meta charset="UTF-8">
@@ -114,8 +114,8 @@
                                     <div class="col-lg-3 single-mega-item">
                                         <ul class="mega-menu-item">
                                             <ul class="submenu">
-                                                <li><a href="/id/teknologi">Pengembangan Teknologi</a></li>
-                                                <li><a href="/id/keuangan">Analis Keuangan</a></li>
+                                                <li><a href="/id/teknologi">Konsultasi IT</a></li>
+                                                <li><a href="/id/keuangan">Konsultasi Finansial</a></li>
                                             </ul>
                                         </ul>
                                     </div>
@@ -170,7 +170,7 @@
                                 <h4 class="title">Portofolio</h4>
                                 <div class="inner">
                                     <ul class="footer-link link-hover">
-                                        <li><a href="/id/portofolio">Portofolio</a></li>
+                                        <li><a href="/id/portfolio">Portofolio</a></li>
                                     </ul>
                                 </div>
                             </div>

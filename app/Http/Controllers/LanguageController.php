@@ -22,8 +22,8 @@ class LanguageController extends Controller
          // Simpan preferensi ke cookie selama 30 hari
          return response()
             ->json(['locale' => $locale])
-            ->cookie('user_lang', $locale, 60, '/', null, false, true)  // Untuk middleware (server-side)
-            ->cookie('user_lang_js', $locale, 60, '/', null, false, false); // Untuk JavaScript
+            ->cookie('user_lang', $locale, 43200, '/', null, false, true)  // Untuk middleware (server-side)
+            ->cookie('user_lang_js', $locale,43200, '/', null, false, false); // Untuk JavaScript
                 
     }
 }
