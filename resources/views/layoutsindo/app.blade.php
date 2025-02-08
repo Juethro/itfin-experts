@@ -6,6 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-style-mode" content="0"> <!-- 0 == light, 1 == dark -->
 
+    {{-- Metadata Start --}}
+    <meta name="description" content="Kami adalah perusahaan Konsultan IT dan Konsultan Finansial yang menyediakan layanan untuk bisnis di Indonesia. Kami menawarkan solusi seperti pengembangan web, jaringan, keamanan siber, desain sistem informasi, serta layanan finansial seperti manajemen kas, perhitungan pajak tahunan, dan pengelolaan keuangan perusahaan.">
+    <meta name="keywords" content="Konsultan IT Indonesia, Konsultan Finansial Indonesia, Pengembangan Web, Jaringan dan Infrastruktur TI, Keamanan Siber, Desain Sistem Informasi, Manajemen Keuangan Perusahaan, Konsultan Pajak Perusahaan, Pengelolaan Kas Bisnis, Pengurangan Biaya Operasional, Transformasi Digital, Solusi Teknologi untuk Bisnis, Audit Keuangan, Strategi Keuangan Perusahaan, Layanan TI untuk Perusahaan Indonesia, Pengelolaan Infrastruktur IT, Keamanan Data dan Informasi, Konsultan Bisnis Digital, Optimasi Sistem Keuangan, Manajemen Risiko Keuangan, Layanan Cloud Computing, Konsultasi Keamanan Jaringan, Perencanaan Keuangan Perusahaan, Compliance & Regulasi Keuangan, Konsultasi Perpajakan, Sistem ERP untuk Perusahaan, Pengelolaan Keuangan UMKM, IT Support untuk Perusahaan, Keamanan Aplikasi Web, Implementasi Sistem Keuangan Digital, Pengelolaan Arus Kas, Penghematan Pajak, Pengelolaan Keuangan Startup, Solusi Software untuk Perusahaan.">
+    <meta name="author" content="ITFIN experts">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Konsultan IT & Finansial Terbaik di Indonesia">
+    <meta property="og:description" content="Solusi teknologi dan keuangan untuk bisnis di Indonesia, mencakup pengembangan web, keamanan siber, serta manajemen keuangan dan pajak.">
+    
+    {{-- Metadata Stop --}}
+
     <title>ITFIN Expert - IT Consultant</title>
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/favicon.png') }}">

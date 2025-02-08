@@ -6,6 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-style-mode" content="0"> <!-- 0 == light, 1 == dark -->
 
+    {{-- Metadata Start --}}
+    <meta name="description" content="We are an IT consulting company providing global solutions for businesses worldwide. Our services include web development, networking, cybersecurity, and system information design to help businesses grow efficiently.">
+    <meta name="keywords" content="Global IT Consulting, Web Development Services, Network Infrastructure Solutions, Cybersecurity Consulting, System Information Design, IT Solutions for Businesses, Digital Transformation, Cloud Computing Services, IT Security Consulting, Data Protection and Security, Business IT Solutions, Software Development for Enterprises, IT Support for Companies, Enterprise Web Applications, Secure Web Development, Network Security Optimization, Business Process Automation, AI and Machine Learning Solutions, IT Compliance and Risk Management, IT Strategy Consulting, Cloud-based Business Solutions, IT Infrastructure Management, Secure Database Solutions, Enterprise Resource Planning (ERP) Systems, Web and Mobile Application Development, Advanced Cybersecurity Solutions, Digital Business Optimization, IT-driven Business Growth, Managed IT Services, Secure Business Communication Solutions.">
+    <meta name="author" content="ITFIN experts">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Leading IT Consulting Firm for Global Businesses">
+    <meta property="og:description" content="Providing top-tier IT solutions including web development, cybersecurity, and networking for businesses worldwide.">
+    <meta property="og:locale" content="en_US">
+    {{-- Metadata Stop --}}
+
     <title>ITFIN Expert - IT Consultant</title>
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/favicon.png') }}">
