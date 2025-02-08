@@ -40,17 +40,17 @@
                 <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade show active advance-tab-content-1" id="home-2" role="tabpanel" aria-labelledby="home-tab-2">
                         <div class="thumbnail">
-                            <img src="{{ asset('assets/images/advance-tab/tabs-04.jpg') }}" alt="advance-tab-image">
+                            <img src="{{ asset('assets/images/advance-tab/Image-Analis Keuangan-1.png') }}" alt="advance-tab-image">
                         </div>
                     </div>
                     <div class="tab-pane fade advance-tab-content-1" id="profile-2" role="tabpanel" aria-labelledby="profile-tab-2">
                         <div class="thumbnail">
-                            <img src="{{ asset('assets/images/advance-tab/tabs-02.jpg') }}" alt="advance-tab-image">
+                            <img src="{{ asset('assets/images/advance-tab/Image-Akuntansi.png') }}" alt="advance-tab-image">
                         </div>
                     </div>
                     <div class="tab-pane fade advance-tab-content-1" id="contact-2" role="tabpanel" aria-labelledby="contact-tab-2">
                         <div class="thumbnail">
-                            <img src="{{ asset('assets/images/advance-tab/tabs-03.jpg') }}" alt="advance-tab-image">
+                            <img src="{{ asset('assets/images/advance-tab/Image-Peramalan.png') }}" alt="advance-tab-image">
                         </div>
                     </div>
                 </div>
@@ -111,7 +111,7 @@
                 <div class="row g-0 radius-10 align-items-center">
                     <div class="col-lg-12 col-xl-6 col-12">
                         <div class="thumbnail">
-                            <img src="{{ asset('assets/images/split/split-03.jpg') }}" alt="split Images">
+                            <img src="{{ asset('assets/images/split/Image-Analis-Keuangan.png') }}" alt="split Images">
                         </div>
                     </div>
                     <div class="col-lg-12 col-xl-6 col-12">

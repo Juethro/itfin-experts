@@ -186,7 +186,7 @@
             <div class="col-lg-6 col-xl-3 col-md-6 col-12 mt--30" data-sal="slide-up" data-sal-duration="400" data-sal-delay="150">
                 <div class="rainbow-team team-style-three">
                     <div class="inner">
-                        <div class="thumbnail"><img src="{{ asset('assets/images/team/team-dark-01.jpg') }}"
+                        <div class="thumbnail"><img src="{{ asset('assets/images/team/Image-Team.png') }}"
                                 alt="Corporate React Template"></div>
                         <div class="content">
                             <div class="team-info">
@@ -201,7 +201,7 @@
             <div class="col-lg-6 col-xl-3 col-md-6 col-12 mt--30" data-sal="slide-up" data-sal-duration="400" data-sal-delay="200">
                 <div class="rainbow-team team-style-three">
                     <div class="inner">
-                        <div class="thumbnail"><img src="{{ asset('assets/images/team/team-dark-02.jpg') }}"
+                        <div class="thumbnail"><img src="{{ asset('assets/images/team/Image-Team.png') }}"
                                 alt="Corporate React Template"></div>
                         <div class="content">
                             <div class="team-info">
@@ -216,7 +216,7 @@
             <div class="col-lg-6 col-xl-3 col-md-6 col-12 mt--30" data-sal="slide-up" data-sal-duration="400" data-sal-delay="300">
                 <div class="rainbow-team team-style-three">
                     <div class="inner">
-                        <div class="thumbnail"><img src="{{ asset('assets/images/team/team-dark-03.jpg') }}"
+                        <div class="thumbnail"><img src="{{ asset('assets/images/team/Image-Team.png') }}"
                                 alt="Corporate React Template"></div>
                         <div class="content">
                             <div class="team-info">
@@ -231,7 +231,7 @@
             <div class="col-lg-6 col-xl-3 col-md-6 col-12 mt--30" data-sal="slide-up" data-sal-duration="400" data-sal-delay="400">
                 <div class="rainbow-team team-style-three">
                     <div class="inner">
-                        <div class="thumbnail"><img src="{{ asset('assets/images/team/team-dark-04.jpg') }}"
+                        <div class="thumbnail"><img src="{{ asset('assets/images/team/Image-Team.png') }}"
                                 alt="Corporate React Template"></div>
                         <div class="content">
                             <div class="team-info">

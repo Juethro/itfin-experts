@@ -26,7 +26,7 @@
                     <div class="video-popup icon-center">
                         <div class="overlay-content">
                             <div class="thumbnail">
-                                <img class="radius-small" src="{{ asset('assets/images/about/contact-image.jpg') }}" alt="Corporate Image">
+                                <img class="radius-small" src="{{ asset('assets/images/about/Image-Teknologi-1.png') }}" alt="Corporate Image">
                             </div>
                             {{-- <div class="video-icon">
                                 <a class="btn-default rounded-player popup-video" href="https://www.youtube.com/watch?v=tj9-MGHCs38">
@@ -143,17 +143,17 @@
                 <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade show active advance-tab-content-1" id="home-2" role="tabpanel" aria-labelledby="home-tab-2">
                         <div class="thumbnail">
-                            <img src="{{ asset('assets/images/advance-tab/tabs-04.jpg') }}" alt="advance-tab-image">
+                            <img src="{{ asset('assets/images/advance-tab/Image-Web-Dev.png') }}" alt="advance-tab-image">
                         </div>
                     </div>
                     <div class="tab-pane fade advance-tab-content-1" id="profile-2" role="tabpanel" aria-labelledby="profile-tab-2">
                         <div class="thumbnail">
-                            <img src="{{ asset('assets/images/advance-tab/tabs-02.jpg') }}" alt="advance-tab-image">
+                            <img src="{{ asset('assets/images/advance-tab/Image-Mobile-App.png') }}" alt="advance-tab-image">
                         </div>
                     </div>
                     <div class="tab-pane fade advance-tab-content-1" id="contact-2" role="tabpanel" aria-labelledby="contact-tab-2">
                         <div class="thumbnail">
-                            <img src="{{ asset('assets/images/advance-tab/tabs-03.jpg') }}" alt="advance-tab-image">
+                            <img src="{{ asset('assets/images/advance-tab/Image-Cyber Security.png') }}" alt="advance-tab-image">
                         </div>
                     </div>
                 </div>
