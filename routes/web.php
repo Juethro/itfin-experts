@@ -2,7 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LanguageController;
-use App\Http\Controllers\ContactController;
 
 // Terapkan middleware ke semua rute
 Route::middleware(['language'])->group(function () {
@@ -57,6 +56,3 @@ Route::middleware(['language'])->group(function () {
 
 // Rute Untuk Generate user_lang
 Route::get('/detect-language', [LanguageController::class, 'index']);
-
-// Send Mail
-Route::post('/sendcontact', [ContactController::class, 'sendEnquiry'])->name('contact.sendEnquiry');
