@@ -63,7 +63,7 @@
                         {{ $value }}
                     </div>
                     @endsession
-                    <form class="contact-form-1 rainbow-dynamic-form" id="contact-form" method="POST" action="{{ route('contact.sendEnquiry') }}">
+                    <form class="contact-form-1" id="contact-form" method="POST" action="{{ route('contact.sendEnquiry') }}">
                         @csrf
                         <div class="form-group">
                             <input type="text" name="name" id="name" placeholder="Nama Kamu">
