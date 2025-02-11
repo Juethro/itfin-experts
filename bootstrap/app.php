@@ -14,6 +14,9 @@ return Application::configure(basePath: dirname(__DIR__))
         $middleware->alias([
             'language' => \App\Http\Middleware\LanguageMiddleware::class,
         ]);
+        $middleware->encryptCookies(except: [
+            'user_lang_js',
+        ]);
     })
     ->withExceptions(function (Exceptions $exceptions) {
         //

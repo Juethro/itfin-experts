@@ -9251,6 +9251,8 @@ xclip
   top: 100%;
 }
 
+
+
 /*--------------------------
     Header Top Styles  
 -----------------------------*/
@@ -9673,6 +9675,92 @@ xclip
 .popup-mobile-menu .mainmenu .single-mega-item:last-child .mega-menu-item li:last-child {
   border-bottom-color: transparent;
 }
+
+/* Custom Lang Switch */
+.popup-mobile-menu .great-mainmenu {
+  justify-content: space-between;
+}
+
+.popup-mobile-menu .lang-div {
+  width: fit-content;
+  cursor: pointer;
+  border: 1px solid var(--color-body);
+  border-radius: 15px;
+  display: flex;
+  padding: 0px 10px 0px 10px;
+}
+
+.popup-mobile-menu .lang-icon-container {
+  display: flex;
+  align-items: center;
+  padding-right: 5px;
+}
+
+.popup-mobile-menu .lang-icon-container .lang-icon {
+  height: 25px;
+}
+
+/* Default: Sembunyikan lang-icon-light, tampilkan lang-icon-dark */
+.lang-icon-light {
+  display: none;
+}
+
+body.active-dark-mode .lang-icon-dark {
+  display: none;
+}
+
+body.active-dark-mode .lang-icon-light {
+  display: block;
+}
+
+body.active-light-mode .lang-icon-dark {
+  display: block;
+}
+
+body.active-light-mode .lang-icon-light {
+  display: none;
+}
+
+/* Custom Lang Switch Nav */
+
+.lang-change-nav {
+  height: fit-content;
+  margin-left: 4em;
+}
+
+.lang-button-nav {
+  max-height: 40px;
+  width: fit-content;
+  cursor: pointer;
+  border: 3px solid var(--color-body);
+  border-radius: 25px;
+  display: flex;
+  padding: 0px 10px 0px 10px;
+}
+
+.lang-change {
+  display: flex;
+  align-items: center;
+}
+
+.lang-icon-container-nav {
+  display: flex;
+  align-items: center;
+  padding-right: 5px;
+}
+
+.lang-icon-nav {
+  max-height: 36px;
+}
+
+.web-lang-nav {
+  color: var(--color-body);
+  font-size: 16px;
+  font-weight: 500;
+  
+}
+
+
 
 /*----------------------
     One Page Nav 

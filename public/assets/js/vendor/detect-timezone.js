@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Jika tidak ada cookie bahasa, maka akan mendeteksi bahasa
     if (!langPref) {
-        // console.log("No language preference found, detecting language...");
 
         // Start Generate Language
         fetch(`/detect-language?timezone=${timezone}`)
@@ -16,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     console.log("Cookie tidak ada, harusnya sudah dibuat oleh Laravel.");
 
                     // Setel ulang cookie TANPA mengubah expired date
-                    document.cookie = "user_lang_js=" + (data.locale || "") + "; path=/";
+                    setCookie("user_lang_js", data.locale);
                 }
 
                 if (!window.location.pathname.startsWith('/' + data.locale)) {
@@ -25,8 +24,6 @@ document.addEventListener("DOMContentLoaded", function () {
             });
         // End Generate Language
     }
-
-    console.log("Browser Timezone: " + timezone + ", Language preference: " + langPref);
 });
 
 // Fungsi untuk mendapatkan nilai cookie
@@ -42,13 +39,7 @@ function getCookie(name) {
 }
 
 
-// // Fungsi untuk menyetel nilai cookie
-// function setCookie(name, value, days) {
-//     var expires = "";
-//     if (days) {
-//         var date = new Date();
-//         date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
-//         expires = "; expires=" + date.toUTCString();
-//     }
-//     document.cookie = name + "=" + (value || "") + expires + "; path=/";
-// }
+// Fungsi untuk menyetel nilai cookie
+function setCookie(name, value) {
+    document.cookie = name + "=" + (value || "") + "; path=/";
+}
