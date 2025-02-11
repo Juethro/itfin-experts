@@ -13421,30 +13421,6 @@ iframe {
   filter: brightness(100);
 }
 
-.my_switcher ul li .setColor.light {
-  display: block;
-}
-
-.my_switcher ul li .setColor.dark {
-  display: none;
-}
-
-.active-dark-mode .my_switcher ul li .setColor.dark {
-  display: block;
-}
-
-.active-dark-mode .my_switcher ul li .setColor.light {
-  display: none;
-}
-
-.active-light-mode .my_switcher ul li .setColor.light {
-  display: block;
-}
-
-.active-light-mode .my_switcher ul li .setColor.dark {
-  display: none;
-}
-
 .my_switcher {
   border: 0 none;
   padding: 0;
