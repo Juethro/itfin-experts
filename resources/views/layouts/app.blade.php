@@ -16,7 +16,7 @@
     <meta property="og:locale" content="en_US">
     {{-- Metadata Stop --}}
 
-    <title>ITFIN Expert - IT Consultant</title>
+    <title>IT Consultant - ITFIN Expert</title>
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/favicon.png') }}">
     <!-- CSS ============================================ -->
@@ -98,44 +98,61 @@
         <!-- End Header Area  -->
         <div class="popup-mobile-menu">
             <div class="inner">
-                <div class="header-top">
-                    <div class="logo">
-                        <a href="index.html">
-                            <img class="logo-light" src="{{ asset('assets/images/logo/logo.png') }}" alt="Corporate Logo">
-                            <img class="logo-dark" src="{{ asset('assets/images/logo/logo-dark.png') }}" alt="Corporate Logo">
-                        </a>
-                    </div>
-                    <div class="close-menu">
-                        <button class="close-button">
-                            <i class="feather-x"></i>
-                        </button>
-                    </div>
-                </div>
-                <ul class="mainmenu">
-                    <li><a href="/">Home</a></li>
-
-                    <li><a href="/en/about">About</a></li>
-
-                    <li class="with-megamenu has-menu-child-item"><a href="#">Service</a>
-                        <div class="rainbow-megamenu">
-                            <div class="wrapper">
-                                <div class="row row--0">
-                                    <div class="col-lg-3 single-mega-item">
-                                        <ul class="mega-menu-item">
-                                            <ul class="submenu">
-                                                <li><a href="/en/technology">Technology Development</a></li>
-                                            </ul>
-                                        </ul>
-                                    </div>
-                                </div>
+                <div class="great-mainmenu">
+                    <div>
+                        <div class="header-top">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img class="logo-light" src="{{ asset('assets/images/logo/logo.png') }}" alt="Corporate Logo">
+                                    <img class="logo-dark" src="{{ asset('assets/images/logo/logo-dark.png') }}" alt="Corporate Logo">
+                                </a>
+                            </div>
+                            <div class="close-menu">
+                                <button class="close-button">
+                                    <i class="feather-x"></i>
+                                </button>
                             </div>
                         </div>
-                    </li>
-
-                    <li><a href="/en/portfolio">Portfolio</a></li>
-
-                    <li><a href="/en/contact">Contact</a></li>
-                </ul>
+                        <div>
+                            <ul class="mainmenu">
+                                <li><a href="/">Home</a></li>
+            
+                                <li><a href="/en/about">About</a></li>
+            
+                                <li class="with-megamenu has-menu-child-item"><a href="#">Service</a>
+                                    <div class="rainbow-megamenu">
+                                        <div class="wrapper">
+                                            <div class="row row--0">
+                                                <div class="col-lg-3 single-mega-item">
+                                                    <ul class="mega-menu-item">
+                                                        <ul class="submenu">
+                                                            <li><a href="/en/technology">Technology Development</a></li>
+                                                        </ul>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+            
+                                <li><a href="/en/portfolio">Portfolio</a></li>
+            
+                                <li><a href="/en/contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mainmenu">
+                        <div class="lang-div" role="button" aria-label="Change language" tabindex="0">
+                            <div class="lang-icon-container">
+                                <img class="lang-icon lang-icon-dark" src="{{ asset('assets/images/lang/globe_lang.svg') }}" alt="lang-globe-dark">
+                                <img class="lang-icon lang-icon-light" src="{{ asset('assets/images/lang/globe_lang_white.svg') }}" alt="lang-globe-white">
+                            </div>
+                            <div class="web-lang">
+                                English
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <!-- Start Theme Style  -->
@@ -296,6 +313,8 @@
     <script src="{{ asset('assets/js/vendor/jquery-one-page-nav.js') }}"></script>
     <!--  Script Tambahan Deteksi Timezone -->
     <script src="{{ asset('assets/js/vendor/detect-timezone.js') }}"></script>
+    <!--  Script Tambahan Lang Switcher  -->
+    <script src="{{ asset('assets/js/vendor/lang-switch.js') }}"></script>
     <!-- Main JS -->
     <script src="{{ asset('assets/js/main.js') }}"></script>
 </body>

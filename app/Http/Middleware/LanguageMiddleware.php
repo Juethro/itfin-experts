@@ -15,7 +15,7 @@ class LanguageMiddleware
      */
     public function handle(Request $request, Closure $next): Response
     {
-        $userLang = $request->cookie('user_lang');
+        $userLang = $request->cookie('user_lang_js');
         $path = $request->path();
 
         // Jika user mengakses "/" langsung, redirect ke /id atau /en sesuai user_lang
