@@ -9750,17 +9750,20 @@ body.active-light-mode .lang-icon-light {
 }
 
 .lang-icon-nav {
-  max-height: 36px;
+  max-height: 34px;
 }
 
 .web-lang-nav {
   color: var(--color-body);
   font-size: 16px;
   font-weight: 500;
-  
 }
 
-
+@media only screen and (max-width:992px) {
+  .lang-change-nav {
+    display: none;
+  }
+}
 
 /*----------------------
     One Page Nav 

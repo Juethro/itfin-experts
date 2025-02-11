@@ -90,6 +90,19 @@
                                 </ul>
                             </div>
 
+                            <div class="lang-change-nav">
+                                <div class="lang-button-nav mainmenu-nav">
+                                    <div class="lang-change" role="button" aria-label="Change language" tabindex="0">
+                                        <div class="lang-icon-container-nav">
+                                            <img class="lang-icon-nav" src="{{ asset('assets/images/lang/globe_lang_grey.svg') }}" alt="lang-globe-grey">
+                                        </div>
+                                        <div class="web-lang-nav">
+                                            English
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
