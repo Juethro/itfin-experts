@@ -16,6 +16,10 @@
     <meta property="og:locale" content="en_US">
     {{-- Metadata Stop --}}
 
+    {{-- Google ReCaptcha V3 Start --}}
+    <script src="https://www.google.com/recaptcha/api.js?render={{ config('services.recaptcha.key') }}"></script>
+    {{-- Google ReCaptcha V3 Stop --}}
+
     <title>IT Consultant - ITFIN Expert</title>
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/favicon.png') }}">

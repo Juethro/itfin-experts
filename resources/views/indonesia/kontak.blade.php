@@ -96,7 +96,8 @@
                                 <span>Kirim</span>
                             </button>
                         </div>
-                        <p hidden id="post-status" class=""></p>
+                        <p hidden id="post-status" class="text-success"></p>
+                        <p class="text-danger error-message" id="error-g-recaptcha-response" ></p>
                     </form>                    
                 </div>
                 <div class="col-lg-5 mt_md--30 mt_sm--30">
@@ -144,44 +145,53 @@
             let formData = new FormData(this); // Ambil data dari form
             loadingSpinner.hidden = false; // Mulai loading animation
 
-            fetch("/sendcontact", {
-                method: "POST",
-                body: formData,
-                headers: {
-                    "X-CSRF-TOKEN": document.querySelector('input[name="_token"]').value
-                }
-            })
-            .then(response => response.json())
-            .then(data => {
-                if (data.success) {
-                    // Jika sukses, tampilkan pesan BERHASIL
-                    statusElement.textContent = "Pesan Terkirim";
-                    statusElement.hidden = false; // Tampilkan elemen
+            grecaptcha.ready(function () {
+                grecaptcha.execute("{{ config('services.recaptcha.key') }}", { action: "contact" }).then(function (token) {
+                    formData.append("g-recaptcha-response", token);
 
-                    // alert("Pesan berhasil dikirim!"); // Bisa diganti dengan tampilan lebih baik
-                    document.getElementById("contact-form").reset(); // Reset form setelah sukses
-
-                    // Hilangkan pesan setelah 5 detik
-                    setTimeout(() => {
-                        statusElement.hidden = true;
-                    }, 5000);
-
-                } else if (data.errors) {
-                    // Reset pesan error
-                    document.querySelectorAll(".error-message").forEach(el => el.textContent = "");
-
-                    // Tampilkan pesan error dari server
-                    Object.keys(data.errors).forEach(field => {
-                        let errorElement = document.getElementById(`error-${field}`);
-                        if (errorElement) {
-                            errorElement.textContent = data.errors[field][0]; // Ambil pesan error pertama
+                    fetch("/sendcontact", {
+                        method: "POST",
+                        body: formData,
+                        headers: {
+                            "X-CSRF-TOKEN": document.querySelector('input[name="_token"]').value
                         }
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.success) {
+                            // Jika sukses, tampilkan pesan BERHASIL
+                            statusElement.textContent = "Pesan Terkirim";
+                            statusElement.hidden = false; // Tampilkan elemen
+
+                            // alert("Pesan berhasil dikirim!"); // Bisa diganti dengan tampilan lebih baik
+                            document.getElementById("contact-form").reset(); // Reset form setelah sukses
+
+                            // Hilangkan pesan setelah 5 detik
+                            setTimeout(() => {
+                                statusElement.hidden = true;
+                            }, 5000);
+
+                        } else if (data.errors) {
+                            // Reset pesan error
+                            document.querySelectorAll(".error-message").forEach(el => el.textContent = "");
+
+                            // Tampilkan pesan error dari server
+                            Object.keys(data.errors).forEach(field => {
+                                let errorElement = document.getElementById(`error-${field}`);
+                                if (errorElement) {
+                                    errorElement.textContent = data.errors[field][0]; // Ambil pesan error pertama
+                                }
+                            });
+                        }
+                    })
+                    .catch(error => {
+                        console.error("Terjadi kesalahan:", error);
+                        loadingSpinner.hidden = true; // Hilangkan loading animation
+                    })
+                    .finally( () => {
+                        loadingSpinner.hidden = true; // Hilangkan loading animation
                     });
-                }
-            })
-            .catch(error => console.error("Terjadi kesalahan:", error))
-            .finally( () => {
-                loadingSpinner.hidden = true; // Hilangkan loading animation
+                });
             });
         });
     </script>

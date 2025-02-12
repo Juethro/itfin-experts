@@ -7,11 +7,13 @@ use App\Models\Message as ModelMessage;
 use Illuminate\Http\Request;
 use Illuminate\Mail\Message;
 use Illuminate\Support\Facades\Mail;
+use App\Rules\ReCaptCha;
 
 class ContactController extends Controller
 {
     public function sendEnquiry(Request $request){
 
+        // dd($request);
         // Ambil nilai lang langsung sebagai string, default ke 'id' jika tidak ada
         $lang = $request->input('lang', 'id');
 
@@ -37,6 +39,8 @@ class ContactController extends Controller
             'messageContent.required' => 'Pesan wajib diisi.',
             'messageContent.min' => 'Pesan harus memiliki minimal 5 karakter.',
             'messageContent.max' => 'Pesan tidak boleh lebih dari 1000 karakter.',
+
+            'g-recaptcha-response' => 'Google recaptcha tidak valid'
         ];
 
         // Pesan error dalam bahasa Inggris
@@ -61,6 +65,8 @@ class ContactController extends Controller
             'messageContent.required' => 'Message is required.',
             'messageContent.min' => 'Message must be at least 5 characters.',
             'messageContent.max' => 'Message cannot be more than 1000 characters.',
+
+            'g-recaptcha-response' => 'The google recaptcha is required.',
         ];
 
         // Pilih pesan berdasarkan bahasa
@@ -74,6 +80,7 @@ class ContactController extends Controller
                 'email' => ['required', 'email', 'max:255'],
                 'subject' => ['required', 'min:3', 'max:150'],
                 'messageContent' => ['required', 'min:5', 'max:1000'],
+                'g-recaptcha-response' => ['required', new ReCaptcha]
             ], $messages);
 
             
@@ -82,7 +89,7 @@ class ContactController extends Controller
     
             // Kirim email (Pastikan konfigurasi mail sudah benar)
             Mail::to(env('MAIL_TO_ADDRESS'))->send(new Enquiry($data));
-    
+            
             // Kembalikan response JSON berhasil
             return response()->json([
                 'success' => true,

@@ -13,8 +13,11 @@
     <meta name="robots" content="index, follow">
     <meta property="og:title" content="Konsultan IT & Finansial Terbaik di Indonesia">
     <meta property="og:description" content="Solusi teknologi dan keuangan untuk bisnis di Indonesia, mencakup pengembangan web, keamanan siber, serta manajemen keuangan dan pajak.">
-    
     {{-- Metadata Stop --}}
+
+    {{-- Google ReCaptcha V3 Start --}}
+    <script src="https://www.google.com/recaptcha/api.js?render={{ config('services.recaptcha.key') }}"></script>
+    {{-- Google ReCaptcha V3 Stop --}}
 
     <title>- IT & Finance Consultant - ITFIN Expert</title>
     <!-- Favicon -->
