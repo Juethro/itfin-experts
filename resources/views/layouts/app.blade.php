@@ -328,6 +328,7 @@
     <script src="{{ asset('assets/js/vendor/detect-timezone.js') }}"></script>
     <!--  Script Tambahan Lang Switcher  -->
     <script src="{{ asset('assets/js/vendor/lang-switch.js') }}"></script>
+    @stack('scripts')
     <!-- Main JS -->
     <script src="{{ asset('assets/js/main.js') }}"></script>
 </body>

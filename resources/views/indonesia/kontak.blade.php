@@ -58,50 +58,39 @@
 
             <div class="row mt--40 row--15">
                 <div class="col-lg-7">
-                    @session('success')
-                    <div>
-                        {{ $value }}
-                    </div>
-                    @endsession
-                    <form class="contact-form-1" id="contact-form" method="POST" action="{{ route('contact.sendEnquiry') }}">
+                    <form id="contact-form">
                         @csrf
                         <div class="form-group">
-                            <input type="text" name="name" id="name" placeholder="Nama Kamu">
-                            @error('name')
-                            <p class="text-danger">{{ $message }}</p>
-                            @enderror
+                            <input type="text" name="name" id="name" placeholder="Nama Kamu" required>
+                            <p class="text-danger error-message" id="error-name"></p>
                         </div>
                         <div class="form-group">
-                            <input type="text" name="phone" id="phone" placeholder="Nomor Telepon Kamu">
-                            @error('phone')
-                            <p class="text-danger">{{ $message }}</p>
-                            @enderror
+                            <input type="text" name="phone" id="phone" placeholder="Nomor Telepon Kamu" required>
+                            <p class="text-danger error-message" id="error-phone"></p>
                         </div>
                         <div class="form-group">
-                            <input type="email" id="email" name="email" placeholder="Email Kamu">
-                            @error('email')
-                            <p class="text-danger">{{ $message }}</p>
-                            @enderror
+                            <input type="email" id="email" name="email" placeholder="Email Kamu" required>
+                            <p class="text-danger error-message" id="error-email"></p>
                         </div>
                         <div class="form-group">
-                            <input type="text" id="subject" name="subject" placeholder="Subyek">
-                            @error('subject')
-                            <p class="text-danger">{{ $message }}</p>
-                            @enderror
+                            <input type="text" id="subject" name="subject" placeholder="Subyek" required>
+                            <p class="text-danger error-message" id="error-subject"></p>
                         </div>
                         <div class="form-group">
-                            <textarea name="messageContent" id="messageContent" placeholder="Pesan"></textarea>
-                            @error('messageContent')
-                            <p class="text-danger">{{ $message }}</p>
-                            @enderror
+                            <textarea name="messageContent" id="messageContent" placeholder="Pesan" required></textarea>
+                            <p class="text-danger error-message" id="error-messageContent"></p>
                         </div>
-
+                    
+                        <!-- Input lang (hidden) -->
+                        <input type="hidden" id="lang" name="lang">
+                    
                         <div class="form-group">
-                            <button name="submit" type="submit" id="submit" class="btn-default btn-large rainbow-btn">
+                            <button type="submit" id="submit" class="btn-default btn-large rainbow-btn">
                                 <span>Kirim</span>
                             </button>
                         </div>
-                    </form>
+                        <p hidden id="post-status" class=""></p>
+                    </form>                    
                 </div>
                 <div class="col-lg-5 mt_md--30 mt_sm--30">
                     <div class="google-map-style-1">
@@ -114,5 +103,75 @@
 
 </div>
 <!-- End Contact Area  -->
+
+@push('scripts')
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+
+        });
+        // Fungsi untuk mendapatkan nilai cookie
+        function getCookie(name) {
+            var nameEQ = name + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+                if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+            }
+            return null;
+        };
+
+        // Atur nilai value lang
+        let userLang = getCookie("user_lang_js");
+        document.getElementById("lang").value = userLang;
+
+        const statusElement = document.getElementById("post-status");
+        const form = document.getElementById("contact-form");
+        
+        form.addEventListener('submit', function () {
+            event.preventDefault();
+
+            let formData = new FormData(this); // Ambil data dari form
+            
+            fetch("/sendcontact", {
+                method: "POST",
+                body: formData,
+                headers: {
+                    "X-CSRF-TOKEN": document.querySelector('input[name="_token"]').value
+                }
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    // Jika sukses, tampilkan pesan BERHASIL
+                    statusElement.textContent = "Pesan Terkirim";
+                    statusElement.hidden = false; // Tampilkan elemen
+
+                    // alert("Pesan berhasil dikirim!"); // Bisa diganti dengan tampilan lebih baik
+                    document.getElementById("contact-form").reset(); // Reset form setelah sukses
+
+                    // Hilangkan pesan setelah 5 detik
+                    setTimeout(() => {
+                        statusElement.hidden = true;
+                    }, 5000);
+
+                } else if (data.errors) {
+                    // Reset pesan error
+                    document.querySelectorAll(".error-message").forEach(el => el.textContent = "");
+
+                    // Tampilkan pesan error dari server
+                    Object.keys(data.errors).forEach(field => {
+                        let errorElement = document.getElementById(`error-${field}`);
+                        if (errorElement) {
+                            errorElement.textContent = data.errors[field][0]; // Ambil pesan error pertama
+                        }
+                    });
+                }
+            })
+            .catch(error => console.error("Terjadi kesalahan:", error));
+
+        });
+    </script>
+@endpush
 
 @endsection
