@@ -66,7 +66,8 @@ class ContactController extends Controller
         // Pilih pesan berdasarkan bahasa
         $messages = $lang == 'en' ? $messages_en : $messages_id;
 
-
+        sleep(5);
+        
         try {
             // Validasi dengan pesan yang dipilih
             $data = $request->validate([
@@ -76,12 +77,13 @@ class ContactController extends Controller
                 'subject' => ['required', 'min:3', 'max:150'],
                 'messageContent' => ['required', 'min:5', 'max:1000'],
             ], $messages);
+
+            
+            // // Simpan ke database
+            // ModelMessage::create($data);
     
-            // Simpan ke database
-            ModelMessage::create($data);
-    
-            // Kirim email (Pastikan konfigurasi mail sudah benar)
-            Mail::to(env('MAIL_TO_ADDRESS'))->send(new Enquiry($data));
+            // // Kirim email (Pastikan konfigurasi mail sudah benar)
+            // Mail::to(env('MAIL_TO_ADDRESS'))->send(new Enquiry($data));
     
             // Kembalikan response JSON berhasil
             return response()->json([

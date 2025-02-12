@@ -56,6 +56,13 @@
                 </div>
             </div>
 
+            {{-- Loading Spinner Start --}}
+            <div hidden id="loading-spinner" class="loading-gif">
+                <img class="loading-asset" src="{{ asset('assets/images/rolling-v3.png') }}" alt="Loading..." />
+            </div>
+            {{-- Loading Spinner End --}}
+
+            {{-- Form Contact + Google Map Location Start --}}
             <div class="row mt--40 row--15">
                 <div class="col-lg-7">
                     <form id="contact-form">
@@ -98,6 +105,8 @@
                     </div>
                 </div>
             </div>
+            {{-- Form Contact + Google Map Location End --}}
+
         </div>
     </div>
 
@@ -127,12 +136,14 @@
 
         const statusElement = document.getElementById("post-status");
         const form = document.getElementById("contact-form");
-        
+        const loadingSpinner = document.getElementById("loading-spinner");
+
         form.addEventListener('submit', function () {
             event.preventDefault();
 
             let formData = new FormData(this); // Ambil data dari form
-            
+            loadingSpinner.hidden = false; // Mulai loading animation
+
             fetch("/sendcontact", {
                 method: "POST",
                 body: formData,
@@ -168,8 +179,10 @@
                     });
                 }
             })
-            .catch(error => console.error("Terjadi kesalahan:", error));
-
+            .catch(error => console.error("Terjadi kesalahan:", error))
+            .finally( () => {
+                loadingSpinner.hidden = true; // Hilangkan loading animation
+            });
         });
     </script>
 @endpush

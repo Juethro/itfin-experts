@@ -56,39 +56,46 @@
                 </div>
             </div>
 
+            {{-- Loading Spinner Start --}}
+            <div hidden id="loading-spinner" class="loading-gif">
+                <img class="loading-asset" src="{{ asset('assets/images/rolling-v3.png') }}" alt="Loading..." />
+            </div>
+            {{-- Loading Spinner End --}}
+
+            {{-- Form Contact + Google Map Location Start --}}
             <div class="row mt--40 row--15">
                 <div class="col-lg-7">
                     <form id="contact-form">
                         @csrf
                         <div class="form-group">
-                            <input type="text" name="name" id="name" placeholder="Nama Kamu" required>
+                            <input type="text" name="name" id="name" placeholder="Your Name" required>
                             <p class="text-danger error-message" id="error-name"></p>
                         </div>
                         <div class="form-group">
-                            <input type="text" name="phone" id="phone" placeholder="Nomor Telepon Kamu" required>
+                            <input type="text" name="phone" id="phone" placeholder="Your Phone Number" required>
                             <p class="text-danger error-message" id="error-phone"></p>
                         </div>
                         <div class="form-group">
-                            <input type="email" id="email" name="email" placeholder="Email Kamu" required>
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
                             <p class="text-danger error-message" id="error-email"></p>
                         </div>
                         <div class="form-group">
-                            <input type="text" id="subject" name="subject" placeholder="Subyek" required>
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
                             <p class="text-danger error-message" id="error-subject"></p>
                         </div>
                         <div class="form-group">
-                            <textarea name="messageContent" id="messageContent" placeholder="Pesan" required></textarea>
+                            <textarea name="messageContent" id="messageContent" placeholder="Your Message" required></textarea>
                             <p class="text-danger error-message" id="error-messageContent"></p>
                         </div>
-                    
+                        
                         <!-- Input lang (hidden) -->
                         <input type="hidden" id="lang" name="lang">
-                    
+                        
                         <div class="form-group">
                             <button type="submit" id="submit" class="btn-default btn-large rainbow-btn">
-                                <span>Kirim</span>
+                                <span>Send</span>
                             </button>
-                        </div>
+                        </div>                        
                         <p hidden id="post-status" class=""></p>
                     </form>                    
                 </div>
@@ -98,6 +105,8 @@
                     </div>
                 </div>
             </div>
+            {{-- Form Contact + Google Map Location End --}}
+
         </div>
     </div>
 
@@ -127,11 +136,13 @@
 
         const statusElement = document.getElementById("post-status");
         const form = document.getElementById("contact-form");
+        const loadingSpinner = document.getElementById("loading-spinner");
         
         form.addEventListener('submit', function () {
             event.preventDefault();
 
             let formData = new FormData(this); // Ambil data dari form
+            loadingSpinner.hidden = false; // Mulai loading animation
             
             fetch("/sendcontact", {
                 method: "POST",
@@ -168,8 +179,10 @@
                     });
                 }
             })
-            .catch(error => console.error("Error:", error));
-
+            .catch(error => console.error("Error:", error))
+            .finally( () => {
+                loadingSpinner.hidden = true; // Hilangkan loading animation
+            });
         });
     </script>
 @endpush
