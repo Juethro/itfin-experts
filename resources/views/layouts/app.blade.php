@@ -97,7 +97,7 @@
                                             <img class="lang-icon-nav" src="{{ asset('assets/images/lang/globe_lang_grey.svg') }}" alt="lang-globe-grey">
                                         </div>
                                         <div class="web-lang-nav">
-                                            English
+                                            Bahasa
                                         </div>
                                     </div>
                                 </div>
@@ -161,7 +161,7 @@
                                 <img class="lang-icon lang-icon-light" src="{{ asset('assets/images/lang/globe_lang_white.svg') }}" alt="lang-globe-white">
                             </div>
                             <div class="web-lang">
-                                English
+                                Bahasa
                             </div>
                         </div>
                     </div>
