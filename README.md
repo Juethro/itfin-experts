@@ -7,14 +7,13 @@ Dokumen ini berisi langkah-langkah untuk melakukan pull request pertama kali pad
 ### **1. Clone Repository ke Lokal**
 **Jalankan perintah berikut untuk meng-clone repository ke komputer lokal:**
 ```sh
-git clone <URL_REPOSITORY>
+git clone https://github.com/Juethro/itfin-experts.git
 ```
-**Gantilah** `<URL_REPOSITORY>` **dengan URL repository yang sesuai.**
 
 ### **2. Masuk ke Direktori Repository**
 **Navigasikan ke direktori repository Laravel yang telah di-clone:**
 ```sh
-cd nama-repository
+cd itfin-experts
 ```
 
 ### **3. Install Dependensi dengan Composer**
@@ -36,7 +35,7 @@ DB_DATABASE=nama_database
 DB_USERNAME=username_database
 DB_PASSWORD=password_database
 ```
-**Pastikan database telah dibuat sebelum menjalankan migrasi.**
+**Untuk `.env.production` telah dikirim ke email anda**
 
 ### **6. Jalankan Migrasi Database**
 **Untuk menjalankan migrasi database, gunakan perintah berikut:**
@@ -58,6 +57,7 @@ MAIL_FROM_ADDRESS="email@example.com"
 MAIL_TO_ADDRESS="email@example.com"
 MAIL_FROM_NAME="${APP_NAME}"
 ```
+**Untuk `.env.production` telah dikirim ke email anda**
 
 ### **8. Konfigurasi Google reCAPTCHA**
 **Tambahkan Google reCAPTCHA key ke dalam file** `.env`:
@@ -65,6 +65,7 @@ MAIL_FROM_NAME="${APP_NAME}"
 GOOGLE_RECAPTCHA_SITE_KEY=your_site_key
 GOOGLE_RECAPTCHA_SECRET_KEY=your_secret_key
 ```
+**Untuk `.env.production` telah dikirim ke email anda**
 
 ### **9. Jalankan Aplikasi**
 **Terakhir, jalankan aplikasi Laravel dengan perintah berikut:**
@@ -76,3 +77,5 @@ php artisan serve
 ---
 
 **Jika mengalami kendala, silakan periksa log error atau baca dokumentasi Laravel untuk solusi lebih lanjut.**
+
+## Untuk panduan deployment telah dikirim ke email anda
