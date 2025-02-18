@@ -19,7 +19,7 @@
     <script src="https://www.google.com/recaptcha/api.js?render={{ config('services.recaptcha.key') }}"></script>
     {{-- Google ReCaptcha V3 Stop --}}
 
-    <title>- IT & Finance Consultant - ITFIN Expert</title>
+    <title> Konsultan IT & Finansial - ITFIN Expert</title>
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/favicon.png') }}">
     <!-- CSS ============================================ -->
