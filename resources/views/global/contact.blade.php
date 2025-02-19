@@ -145,6 +145,7 @@
             let formData = new FormData(this); // Ambil data dari form
             loadingSpinner.hidden = false; // Mulai loading animation
 
+            // Mulai EKSEKUSI Google Recaptcha
             grecaptcha.ready(function () {
                 grecaptcha.execute("{{ config('services.recaptcha.key') }}", { action: "contact" }).then(function (token) {
                     formData.append("g-recaptcha-response", token);
@@ -159,6 +160,9 @@
                     .then(response => response.json())
                     .then(data => {
                         if (data.success) {
+                            // Reset pesan error
+                            document.querySelectorAll(".error-message").forEach(el => el.textContent = "");
+
                             // Jika sukses, tampilkan pesan BERHASIL
                             statusElement.textContent = "Message Sent";
                             statusElement.hidden = false; // Tampilkan elemen
@@ -166,10 +170,10 @@
                             // alert("Pesan berhasil dikirim!"); // Bisa diganti dengan tampilan lebih baik
                             document.getElementById("contact-form").reset(); // Reset form setelah sukses
 
-                            // Hilangkan pesan setelah 5 detik
-                            setTimeout(() => {
-                                statusElement.hidden = true;
-                            }, 5000);
+                            // // Hilangkan pesan setelah 5 detik
+                            // setTimeout(() => {
+                            //     statusElement.hidden = true;
+                            // }, 5000);
 
                         } else if (data.errors) {
                             // Reset pesan error
