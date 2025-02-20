@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-style-mode" content="0"> <!-- 0 == light, 1 == dark -->
+    <meta name="theme-style-mode" content="1"> <!-- 0 == light, 1 == dark -->
 
     {{-- Metadata Start --}}
     <meta name="description" content="We are an IT consulting company providing global solutions for businesses worldwide. Our services include web development, networking, cybersecurity, and system information design to help businesses grow efficiently.">
@@ -77,9 +77,9 @@
                                     </button>
                                 </div>
                             </div>
-                            <!-- Start Mobile-Menu-Bar -->
+                            <!-- Stop Mobile-Menu-Bar -->
 
-                            <div id="my_switcher" class="my_switcher">
+                            {{-- <div id="my_switcher" class="my_switcher">
                                 <ul>
                                     <li>
                                         <a href="javascript: void(0);" data-theme="light" class="setColor light">
@@ -92,7 +92,7 @@
                                         </a>
                                     </li>
                                 </ul>
-                            </div>
+                            </div> --}}
 
                             <div class="lang-change-nav">
                                 <div class="lang-button-nav mainmenu-nav">
